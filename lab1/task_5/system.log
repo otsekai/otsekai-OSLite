@@ -1,0 +1,951 @@
+2025-09-20T21:20:52.335959+00:00 lab-vm systemd-fsck[303]: cloudimg-rootfs: clean, 87460/327680 files, 476555/655099 blocks
+2025-09-20T21:20:52.336026+00:00 lab-vm systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+2025-09-20T21:20:52.336028+00:00 lab-vm systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+2025-09-20T21:20:52.336030+00:00 lab-vm systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+2025-09-20T21:20:52.336031+00:00 lab-vm systemd[1]: Mounted sys-kernel-tracing.mount - Kernel Trace File System.
+2025-09-20T21:20:52.336032+00:00 lab-vm systemd[1]: Finished kmod-static-nodes.service - Create List of Static Device Nodes.
+2025-09-20T21:20:52.336033+00:00 lab-vm systemd-modules-load[300]: Inserted module 'dm_multipath'
+2025-09-20T21:20:52.336034+00:00 lab-vm systemd[1]: modprobe@configfs.service: Deactivated successfully.
+2025-09-20T21:20:52.336036+00:00 lab-vm systemd[1]: Finished modprobe@configfs.service - Load Kernel Module configfs.
+2025-09-20T21:20:52.336037+00:00 lab-vm systemd[1]: modprobe@dm_mod.service: Deactivated successfully.
+2025-09-20T21:20:52.336038+00:00 lab-vm systemd[1]: Finished modprobe@dm_mod.service - Load Kernel Module dm_mod.
+2025-09-20T21:20:52.336039+00:00 lab-vm systemd[1]: modprobe@drm.service: Deactivated successfully.
+2025-09-20T21:20:52.336040+00:00 lab-vm systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+2025-09-20T21:20:52.336041+00:00 lab-vm systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+2025-09-20T21:20:52.336043+00:00 lab-vm systemd[1]: Finished modprobe@efi_pstore.service - Load Kernel Module efi_pstore.
+2025-09-20T21:20:52.336044+00:00 lab-vm systemd[1]: modprobe@fuse.service: Deactivated successfully.
+2025-09-20T21:20:52.336045+00:00 lab-vm systemd[1]: Finished modprobe@fuse.service - Load Kernel Module fuse.
+2025-09-20T21:20:52.336046+00:00 lab-vm systemd[1]: modprobe@loop.service: Deactivated successfully.
+2025-09-20T21:20:52.336047+00:00 lab-vm systemd[1]: Finished modprobe@loop.service - Load Kernel Module loop.
+2025-09-20T21:20:52.336048+00:00 lab-vm systemd[1]: Finished systemd-fsck-root.service - File System Check on Root Device.
+2025-09-20T21:20:52.336049+00:00 lab-vm systemd[1]: Finished systemd-modules-load.service - Load Kernel Modules.
+2025-09-20T21:20:52.336051+00:00 lab-vm systemd[1]: Mounting sys-fs-fuse-connections.mount - FUSE Control File System...
+2025-09-20T21:20:52.336052+00:00 lab-vm systemd[1]: Mounting sys-kernel-config.mount - Kernel Configuration File System...
+2025-09-20T21:20:52.336053+00:00 lab-vm systemd[1]: Started systemd-fsckd.service - File System Check Daemon to report status.
+2025-09-20T21:20:52.336054+00:00 lab-vm systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+2025-09-20T21:20:52.336055+00:00 lab-vm systemd[1]: systemd-repart.service - Repartition Root Disk was skipped because no trigger condition checks were met.
+2025-09-20T21:20:52.336057+00:00 lab-vm systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variables...
+2025-09-20T21:20:52.336058+00:00 lab-vm systemd[1]: Starting systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully...
+2025-09-20T21:20:52.336059+00:00 lab-vm systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+2025-09-20T21:20:52.336060+00:00 lab-vm systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+2025-09-20T21:20:52.336061+00:00 lab-vm systemd[1]: Mounted sys-kernel-config.mount - Kernel Configuration File System.
+2025-09-20T21:20:52.336062+00:00 lab-vm systemd[1]: Finished systemd-remount-fs.service - Remount Root and Kernel File Systems.
+2025-09-20T21:20:52.336063+00:00 lab-vm systemd[1]: Starting multipathd.service - Device-Mapper Multipath Device Controller...
+2025-09-20T21:20:52.336064+00:00 lab-vm systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because no trigger condition checks were met.
+2025-09-20T21:20:52.336065+00:00 lab-vm systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+2025-09-20T21:20:52.336067+00:00 lab-vm systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+2025-09-20T21:20:52.336068+00:00 lab-vm systemd[1]: Starting systemd-random-seed.service - Load/Save OS Random Seed...
+2025-09-20T21:20:52.336070+00:00 lab-vm systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2025-09-20T21:20:52.336071+00:00 lab-vm systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+2025-09-20T21:20:52.336072+00:00 lab-vm systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+2025-09-20T21:20:52.336073+00:00 lab-vm systemd-random-seed[339]: Kernel entropy pool is not initialized yet, waiting until it is.
+2025-09-20T21:20:52.336074+00:00 lab-vm systemd[1]: Starting systemd-sysusers.service - Create System Users...
+2025-09-20T21:20:52.336075+00:00 lab-vm systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+2025-09-20T21:20:52.336077+00:00 lab-vm systemd[1]: Finished systemd-sysusers.service - Create System Users.
+2025-09-20T21:20:52.336078+00:00 lab-vm systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+2025-09-20T21:20:52.336081+00:00 lab-vm systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+2025-09-20T21:20:52.336082+00:00 lab-vm systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+2025-09-20T21:20:52.336083+00:00 lab-vm systemd[1]: Started multipathd.service - Device-Mapper Multipath Device Controller.
+2025-09-20T21:20:52.336084+00:00 lab-vm systemd-udevd[359]: Using default interface naming scheme 'v255'.
+2025-09-20T21:20:52.336086+00:00 lab-vm systemd[1]: Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+2025-09-20T21:20:52.336087+00:00 lab-vm systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+2025-09-20T21:20:52.336088+00:00 lab-vm systemd[1]: plymouth-start.service - Show Plymouth Boot Screen was skipped because of an unmet condition check (ConditionKernelCommandLine=splash).
+2025-09-20T21:20:52.336089+00:00 lab-vm systemd[1]: Started systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch.
+2025-09-20T21:20:52.336090+00:00 lab-vm systemd[1]: systemd-ask-password-plymouth.path - Forward Password Requests to Plymouth Directory Watch was skipped because of an unmet condition check (ConditionPathExists=/run/plymouth/pid).
+2025-09-20T21:20:52.336092+00:00 lab-vm systemd[1]: Reached target cryptsetup.target - Local Encrypted Volumes.
+2025-09-20T21:20:52.336093+00:00 lab-vm systemd[1]: Found device dev-ttyAMA0.device - /dev/ttyAMA0.
+2025-09-20T21:20:52.336094+00:00 lab-vm systemd[1]: Finished systemd-random-seed.service - Load/Save OS Random Seed.
+2025-09-20T21:20:52.336095+00:00 lab-vm systemd[1]: Finished lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+2025-09-20T21:20:52.336096+00:00 lab-vm systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+2025-09-20T21:20:52.336097+00:00 lab-vm systemd[1]: Found device dev-disk-by\x2dlabel-UEFI.device - QEMU_HARDDISK UEFI.
+2025-09-20T21:20:52.336098+00:00 lab-vm systemd[1]: Found device dev-disk-by\x2dlabel-BOOT.device - QEMU_HARDDISK BOOT.
+2025-09-20T21:20:52.336099+00:00 lab-vm systemd[1]: Starting systemd-fsck@dev-disk-by\x2dlabel-BOOT.service - File System Check on /dev/disk/by-label/BOOT...
+2025-09-20T21:20:52.336100+00:00 lab-vm systemd[1]: Starting systemd-fsck@dev-disk-by\x2dlabel-UEFI.service - File System Check on /dev/disk/by-label/UEFI...
+2025-09-20T21:20:52.336102+00:00 lab-vm systemd[1]: Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+2025-09-20T21:20:52.336103+00:00 lab-vm systemd-fsck[430]: BOOT: clean, 260/59136 files, 23113/236288 blocks
+2025-09-20T21:20:52.336106+00:00 lab-vm systemd[1]: Finished systemd-fsck@dev-disk-by\x2dlabel-BOOT.service - File System Check on /dev/disk/by-label/BOOT.
+2025-09-20T21:20:52.336107+00:00 lab-vm systemd[1]: Mounting boot.mount - /boot...
+2025-09-20T21:20:52.336108+00:00 lab-vm systemd[1]: Mounted boot.mount - /boot.
+2025-09-20T21:20:52.336109+00:00 lab-vm systemd-fsck[436]: fsck.fat 4.2 (2021-01-31)
+2025-09-20T21:20:52.336110+00:00 lab-vm systemd-fsck[436]: /dev/sda15: 12 files, 12965/199582 clusters
+2025-09-20T21:20:52.336112+00:00 lab-vm systemd[1]: Finished systemd-fsck@dev-disk-by\x2dlabel-UEFI.service - File System Check on /dev/disk/by-label/UEFI.
+2025-09-20T21:20:52.336113+00:00 lab-vm systemd[1]: Mounting boot-efi.mount - /boot/efi...
+2025-09-20T21:20:52.336113+00:00 lab-vm systemd[1]: Mounted boot-efi.mount - /boot/efi.
+2025-09-20T21:20:52.336114+00:00 lab-vm systemd[1]: Reached target local-fs.target - Local File Systems.
+2025-09-20T21:20:52.336115+00:00 lab-vm systemd[1]: Listening on systemd-sysext.socket - System Extension Image Management (Varlink).
+2025-09-20T21:20:52.336116+00:00 lab-vm systemd[1]: Starting apparmor.service - Load AppArmor profiles...
+2025-09-20T21:20:52.336117+00:00 lab-vm systemd[1]: Starting console-setup.service - Set console font and keymap...
+2025-09-20T21:20:52.336118+00:00 lab-vm systemd[1]: Starting finalrd.service - Create final runtime dir for shutdown pivot root...
+2025-09-20T21:20:52.336119+00:00 lab-vm systemd[1]: Starting ldconfig.service - Rebuild Dynamic Linker Cache...
+2025-09-20T21:20:52.336119+00:00 lab-vm apparmor.systemd[447]: Restarting AppArmor
+2025-09-20T21:20:52.336120+00:00 lab-vm systemd[1]: Starting plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data...
+2025-09-20T21:20:52.336121+00:00 lab-vm apparmor.systemd[447]: /lib/apparmor/apparmor.systemd: 148: [: Illegal number: yes
+2025-09-20T21:20:52.336123+00:00 lab-vm apparmor.systemd[447]: Reloading AppArmor profiles
+2025-09-20T21:20:52.336124+00:00 lab-vm systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+2025-09-20T21:20:52.336125+00:00 lab-vm systemd[1]: Starting systemd-tmpfiles-setup.service - Create Volatile Files and Directories...
+2025-09-20T21:20:52.336126+00:00 lab-vm systemd[1]: Starting ufw.service - Uncomplicated firewall...
+2025-09-20T21:20:52.336127+00:00 lab-vm systemd[1]: Finished console-setup.service - Set console font and keymap.
+2025-09-20T21:20:52.336128+00:00 lab-vm systemd[1]: Finished finalrd.service - Create final runtime dir for shutdown pivot root.
+2025-09-20T21:20:52.336129+00:00 lab-vm systemd[1]: Finished ufw.service - Uncomplicated firewall.
+2025-09-20T21:20:52.336130+00:00 lab-vm systemd[1]: Finished plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data.
+2025-09-20T21:20:52.336131+00:00 lab-vm systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 461 (systemd-binfmt)
+2025-09-20T21:20:52.336132+00:00 lab-vm systemd[1]: Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+2025-09-20T21:20:52.336133+00:00 lab-vm systemd[1]: Finished systemd-tmpfiles-setup.service - Create Volatile Files and Directories.
+2025-09-20T21:20:52.336134+00:00 lab-vm systemd[1]: Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+2025-09-20T21:20:52.336135+00:00 lab-vm systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2025-09-20T21:20:52.336136+00:00 lab-vm systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2025-09-20T21:20:52.336137+00:00 lab-vm systemd[1]: Starting systemd-journal-catalog-update.service - Rebuild Journal Catalog...
+2025-09-20T21:20:52.336138+00:00 lab-vm systemd[1]: Starting systemd-machine-id-commit.service - Commit a transient machine-id on disk...
+2025-09-20T21:20:52.336139+00:00 lab-vm systemd[1]: Starting systemd-resolved.service - Network Name Resolution...
+2025-09-20T21:20:52.336140+00:00 lab-vm systemd[1]: Starting systemd-timesyncd.service - Network Time Synchronization...
+2025-09-20T21:20:52.336141+00:00 lab-vm systemd[1]: Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+2025-09-20T21:20:52.336142+00:00 lab-vm systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+2025-09-20T21:20:52.336142+00:00 lab-vm systemd[1]: Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+2025-09-20T21:20:52.336143+00:00 lab-vm systemd[1]: Finished systemd-journal-catalog-update.service - Rebuild Journal Catalog.
+2025-09-20T21:20:52.336145+00:00 lab-vm systemd[1]: Finished systemd-machine-id-commit.service - Commit a transient machine-id on disk.
+2025-09-20T21:20:52.336146+00:00 lab-vm systemd[1]: Started systemd-timesyncd.service - Network Time Synchronization.
+2025-09-20T21:20:52.336147+00:00 lab-vm systemd[1]: Reached target time-set.target - System Time Set.
+2025-09-20T21:20:52.336148+00:00 lab-vm systemd-resolved[490]: Positive Trust Anchors:
+2025-09-20T21:20:52.336149+00:00 lab-vm systemd-resolved[490]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+2025-09-20T21:20:52.336150+00:00 lab-vm systemd-resolved[490]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 170.0.0.192.in-addr.arpa 171.0.0.192.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa ipv4only.arpa corp home internal intranet lan local private test
+2025-09-20T21:20:52.336153+00:00 lab-vm systemd-resolved[490]: Using system hostname 'ubuntu'.
+2025-09-20T21:20:52.336154+00:00 lab-vm systemd[1]: Started systemd-resolved.service - Network Name Resolution.
+2025-09-20T21:20:52.336155+00:00 lab-vm systemd[1]: Reached target nss-lookup.target - Host and Network Name Lookups.
+2025-09-20T21:20:52.336156+00:00 lab-vm systemd[1]: Finished ldconfig.service - Rebuild Dynamic Linker Cache.
+2025-09-20T21:20:52.336157+00:00 lab-vm systemd[1]: Starting systemd-update-done.service - Update is Completed...
+2025-09-20T21:20:52.336158+00:00 lab-vm systemd[1]: Finished systemd-update-done.service - Update is Completed.
+2025-09-20T21:20:52.336159+00:00 lab-vm systemd[1]: Finished apparmor.service - Load AppArmor profiles.
+2025-09-20T21:20:52.336161+00:00 lab-vm systemd[1]: Starting snapd.apparmor.service - Load AppArmor profiles managed internally by snapd...
+2025-09-20T21:20:52.336162+00:00 lab-vm systemd[1]: vgauth.service - Authentication service for virtual machines hosted on VMware was skipped because of an unmet condition check (ConditionVirtualization=vmware).
+2025-09-20T21:20:52.336163+00:00 lab-vm systemd[1]: open-vm-tools.service - Service for virtual machines hosted on VMware was skipped because of an unmet condition check (ConditionVirtualization=vmware).
+2025-09-20T21:20:52.336164+00:00 lab-vm systemd[1]: Starting cloud-init-local.service - Cloud-init: Local Stage (pre-network)...
+2025-09-20T21:20:52.336168+00:00 lab-vm systemd[1]: Finished snapd.apparmor.service - Load AppArmor profiles managed internally by snapd.
+2025-09-20T21:20:52.336170+00:00 lab-vm systemd[1]: etc-machine\x2did.mount: Deactivated successfully.
+2025-09-20T21:20:52.336172+00:00 lab-vm systemd[1]: run-cloud\x2dinit-tmp-tmp867fc09h.mount: Deactivated successfully.
+2025-09-20T21:20:52.336173+00:00 lab-vm systemd-resolved[490]: System hostname changed to 'lab-vm'.
+2025-09-20T21:20:52.336175+00:00 lab-vm systemd[1]: netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup was skipped because of an unmet condition check (ConditionFileIsExecutable=/usr/bin/ovs-vsctl).
+2025-09-20T21:20:52.336180+00:00 lab-vm systemd[1]: message repeated 2 times: [ netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup was skipped because of an unmet condition check (ConditionFileIsExecutable=/usr/bin/ovs-vsctl).]
+2025-09-20T21:20:52.336181+00:00 lab-vm systemd[1]: Reloading requested from client PID 622 ('systemctl') (unit cloud-init-local.service)...
+2025-09-20T21:20:52.336185+00:00 lab-vm systemd[1]: Reloading...
+2025-09-20T21:20:52.336186+00:00 lab-vm systemd[1]: Reloading finished in 72 ms.
+2025-09-20T21:20:52.336187+00:00 lab-vm systemd[1]: Finished cloud-init-local.service - Cloud-init: Local Stage (pre-network).
+2025-09-20T21:20:52.336188+00:00 lab-vm systemd[1]: Reached target network-pre.target - Preparation for Network.
+2025-09-20T21:20:52.336189+00:00 lab-vm systemd[1]: Starting systemd-networkd.service - Network Configuration...
+2025-09-20T21:20:52.336190+00:00 lab-vm systemd-networkd[658]: lo: Link UP
+2025-09-20T21:20:52.336191+00:00 lab-vm systemd-networkd[658]: lo: Gained carrier
+2025-09-20T21:20:52.336193+00:00 lab-vm systemd-networkd[658]: Enumeration completed
+2025-09-20T21:20:52.336194+00:00 lab-vm systemd[1]: Started systemd-networkd.service - Network Configuration.
+2025-09-20T21:20:52.336195+00:00 lab-vm systemd[1]: Reached target network.target - Network.
+2025-09-20T21:20:52.336196+00:00 lab-vm systemd-networkd[658]: enp0s1: Configuring with /run/systemd/network/10-netplan-default.network.
+2025-09-20T21:20:52.336197+00:00 lab-vm systemd-networkd[658]: enp0s1: Link UP
+2025-09-20T21:20:52.336198+00:00 lab-vm systemd-networkd[658]: enp0s1: Gained carrier
+2025-09-20T21:20:52.336200+00:00 lab-vm systemd[1]: Starting systemd-networkd-wait-online.service - Wait for Network to be Configured...
+2025-09-20T21:20:52.336201+00:00 lab-vm systemd-networkd[658]: enp0s1: DHCPv4 address 192.168.64.11/24, gateway 192.168.64.1 acquired from 192.168.64.1
+2025-09-20T21:20:52.336202+00:00 lab-vm systemd-timesyncd[496]: Network configuration changed, trying to establish connection.
+2025-09-20T21:20:52.336203+00:00 lab-vm systemd-networkd[658]: enp0s1: Gained IPv6LL
+2025-09-20T21:20:52.336204+00:00 lab-vm systemd-timesyncd[496]: Network configuration changed, trying to establish connection.
+2025-09-20T21:20:52.336205+00:00 lab-vm systemd[1]: Finished systemd-networkd-wait-online.service - Wait for Network to be Configured.
+2025-09-20T21:20:52.336207+00:00 lab-vm systemd[1]: Starting cloud-init.service - Cloud-init: Network Stage...
+2025-09-20T21:20:52.336306+00:00 lab-vm systemd[1]: Finished cloud-init.service - Cloud-init: Network Stage.
+2025-09-20T21:20:52.336307+00:00 lab-vm systemd[1]: Reached target cloud-config.target - Cloud-config availability.
+2025-09-20T21:20:52.336308+00:00 lab-vm systemd[1]: Reached target network-online.target - Network is Online.
+2025-09-20T21:20:52.336309+00:00 lab-vm systemd[1]: Reached target sysinit.target - System Initialization.
+2025-09-20T21:20:52.336310+00:00 lab-vm systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2025-09-20T21:20:52.336312+00:00 lab-vm systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2025-09-20T21:20:52.336313+00:00 lab-vm systemd[1]: Started apt-daily.timer - Daily apt download activities.
+2025-09-20T21:20:52.336314+00:00 lab-vm systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+2025-09-20T21:20:52.336315+00:00 lab-vm systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+2025-09-20T21:20:52.336316+00:00 lab-vm systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+2025-09-20T21:20:52.336318+00:00 lab-vm systemd[1]: Started fstrim.timer - Discard unused filesystem blocks once a week.
+2025-09-20T21:20:52.336319+00:00 lab-vm systemd[1]: Started fwupd-refresh.timer - Refresh fwupd metadata regularly.
+2025-09-20T21:20:52.336319+00:00 lab-vm systemd[1]: Started logrotate.timer - Daily rotation of log files.
+2025-09-20T21:20:52.336320+00:00 lab-vm systemd[1]: Started man-db.timer - Daily man-db regeneration.
+2025-09-20T21:20:52.336321+00:00 lab-vm systemd[1]: Started motd-news.timer - Message of the Day.
+2025-09-20T21:20:52.336322+00:00 lab-vm systemd[1]: snapd.snap-repair.timer - Timer to automatically fetch and run repair assertions was skipped because no trigger condition checks were met.
+2025-09-20T21:20:52.336327+00:00 lab-vm systemd[1]: Started sysstat-collect.timer - Run system activity accounting tool every 10 minutes.
+2025-09-20T21:20:52.336328+00:00 lab-vm systemd[1]: Started sysstat-summary.timer - Generate summary of yesterday's process accounting.
+2025-09-20T21:20:52.336329+00:00 lab-vm systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+2025-09-20T21:20:52.336330+00:00 lab-vm systemd[1]: ua-timer.timer - Ubuntu Pro Timer for running repeated jobs was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+2025-09-20T21:20:52.336331+00:00 lab-vm systemd[1]: Started update-notifier-download.timer - Download data for packages that failed at package install time.
+2025-09-20T21:20:52.336332+00:00 lab-vm systemd[1]: Started update-notifier-motd.timer - Check to see whether there is a new version of Ubuntu available.
+2025-09-20T21:20:52.336334+00:00 lab-vm systemd[1]: Reached target paths.target - Path Units.
+2025-09-20T21:20:52.336335+00:00 lab-vm systemd[1]: Reached target timers.target - Timer Units.
+2025-09-20T21:20:52.336336+00:00 lab-vm systemd[1]: apport-forward.socket - Unix socket for apport crash forwarding was skipped because of an unmet condition check (ConditionVirtualization=container).
+2025-09-20T21:20:52.336337+00:00 lab-vm systemd[1]: Listening on cloud-init-hotplugd.socket - cloud-init hotplug hook socket.
+2025-09-20T21:20:52.336338+00:00 lab-vm systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+2025-09-20T21:20:52.336340+00:00 lab-vm systemd[1]: Listening on iscsid.socket - Open-iSCSI iscsid Socket.
+2025-09-20T21:20:52.336341+00:00 lab-vm systemd[1]: Starting lxd-installer.socket - Helper to install lxd snap on demand...
+2025-09-20T21:20:52.336342+00:00 lab-vm systemd[1]: Starting snapd.socket - Socket activation for snappy daemon...
+2025-09-20T21:20:52.336343+00:00 lab-vm systemd[1]: Listening on ssh.socket - OpenBSD Secure Shell server socket.
+2025-09-20T21:20:52.336344+00:00 lab-vm systemd[1]: Listening on uuidd.socket - UUID daemon activation socket.
+2025-09-20T21:20:52.336346+00:00 lab-vm systemd[1]: open-iscsi.service - Login to default iSCSI targets was skipped because no trigger condition checks were met.
+2025-09-20T21:20:52.336348+00:00 lab-vm systemd[1]: Reached target remote-fs-pre.target - Preparation for Remote File Systems.
+2025-09-20T21:20:52.336349+00:00 lab-vm systemd[1]: Reached target remote-fs.target - Remote File Systems.
+2025-09-20T21:20:52.336350+00:00 lab-vm systemd[1]: Finished blk-availability.service - Availability of block devices.
+2025-09-20T21:20:52.336351+00:00 lab-vm systemd[1]: systemd-pcrphase-sysinit.service - TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2025-09-20T21:20:52.336352+00:00 lab-vm systemd[1]: Listening on lxd-installer.socket - Helper to install lxd snap on demand.
+2025-09-20T21:20:52.336353+00:00 lab-vm systemd[1]: Listening on snapd.socket - Socket activation for snappy daemon.
+2025-09-20T21:20:52.336356+00:00 lab-vm systemd[1]: Reached target sockets.target - Socket Units.
+2025-09-20T21:20:52.336357+00:00 lab-vm systemd[1]: Reached target basic.target - Basic System.
+2025-09-20T21:20:52.336358+00:00 lab-vm systemd[1]: Starting apport.service - automatic crash report generation...
+2025-09-20T21:20:52.336359+00:00 lab-vm systemd[1]: Starting cloud-config.service - Cloud-init: Config Stage...
+2025-09-20T21:20:52.336360+00:00 lab-vm systemd[1]: Started cron.service - Regular background program processing daemon.
+2025-09-20T21:20:52.336364+00:00 lab-vm systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+2025-09-20T21:20:52.336367+00:00 lab-vm systemd[1]: Started dmesg.service - Save initial kernel messages after boot.
+2025-09-20T21:20:52.336368+00:00 lab-vm systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+2025-09-20T21:20:52.336369+00:00 lab-vm systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+2025-09-20T21:20:52.336374+00:00 lab-vm systemd-timesyncd[496]: Network configuration changed, trying to establish connection.
+2025-09-20T21:20:52.336377+00:00 lab-vm systemd[1]: Starting grub-common.service - Record successful boot for GRUB...
+2025-09-20T21:20:52.336384+00:00 lab-vm systemd[1]: networkd-dispatcher.service - Dispatcher daemon for systemd-networkd was skipped because no trigger condition checks were met.
+2025-09-20T21:20:52.336385+00:00 lab-vm systemd[1]: Starting polkit.service - Authorization Manager...
+2025-09-20T21:20:52.336386+00:00 lab-vm systemd[1]: Starting pollinate.service - Pollinate to seed the pseudo random number generator...
+2025-09-20T21:20:52.336389+00:00 lab-vm systemd[1]: Starting rsyslog.service - System Logging Service...
+2025-09-20T21:20:52.336390+00:00 lab-vm systemd[1]: secureboot-db.service - Secure Boot updates for DB and DBX was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/db-d719b2cb-3d3a-4596-a3bc-dad00e67656f).
+2025-09-20T21:20:52.336391+00:00 lab-vm systemd[1]: snapd.core-fixup.service - Automatically repair incorrect owner/permissions on core devices was skipped because no trigger condition checks were met.
+2025-09-20T21:20:52.336392+00:00 lab-vm systemd[1]: snapd.recovery-chooser-trigger.service - Wait for the Ubuntu Core chooser trigger was skipped because of an unmet condition check (ConditionKernelCommandLine=snapd_recovery_mode).
+2025-09-20T21:20:52.336393+00:00 lab-vm systemd[1]: Reached target getty-pre.target - Preparation for Logins.
+2025-09-20T21:20:52.336395+00:00 lab-vm systemd[1]: Starting snapd.seeded.service - Wait until snapd is fully seeded...
+2025-09-20T21:20:52.336396+00:00 lab-vm systemd[1]: Starting snapd.service - Snap Daemon...
+2025-09-20T21:20:52.336397+00:00 lab-vm systemd[1]: Starting sysstat.service - Resets System Activity Logs...
+2025-09-20T21:20:52.336398+00:00 lab-vm systemd[1]: Starting systemd-logind.service - User Login Management...
+2025-09-20T21:20:52.336399+00:00 lab-vm systemd[1]: systemd-pcrphase.service - TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2025-09-20T21:20:52.336400+00:00 lab-vm systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+2025-09-20T21:20:52.336402+00:00 lab-vm systemd[1]: ua-reboot-cmds.service - Ubuntu Pro reboot cmds was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+2025-09-20T21:20:52.336403+00:00 lab-vm systemd[1]: ubuntu-advantage.service - Ubuntu Pro Background Auto Attach was skipped because no trigger condition checks were met.
+2025-09-20T21:20:52.336405+00:00 lab-vm systemd[1]: Starting udisks2.service - Disk Manager...
+2025-09-20T21:20:52.336406+00:00 lab-vm systemd[1]: Started dbus.service - D-Bus System Message Bus.
+2025-09-20T21:20:52.336407+00:00 lab-vm systemd[1]: e2scrub_reap.service: Deactivated successfully.
+2025-09-20T21:20:52.336408+00:00 lab-vm systemd[1]: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+2025-09-20T21:20:52.336413+00:00 lab-vm systemd[1]: Finished sysstat.service - Resets System Activity Logs.
+2025-09-20T21:20:52.336413+00:00 lab-vm systemd[1]: Started systemd-logind.service - User Login Management.
+2025-09-20T21:20:52.336414+00:00 lab-vm systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+2025-09-20T21:20:52.336416+00:00 lab-vm dbus-daemon[774]: [system] Activating systemd to hand-off: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.3' (uid=0 pid=799 comm="/usr/libexec/udisks2/udisksd" label="unconfined")
+2025-09-20T21:20:52.336417+00:00 lab-vm dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.systemd1'
+2025-09-20T21:20:52.336418+00:00 lab-vm systemd[1]: Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+2025-09-20T21:20:52.336419+00:00 lab-vm systemd[1]: Starting plymouth-quit.service - Terminate Plymouth Boot Screen...
+2025-09-20T21:20:52.336421+00:00 lab-vm systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+2025-09-20T21:20:52.336423+00:00 lab-vm systemd[1]: grub-common.service: Deactivated successfully.
+2025-09-20T21:20:52.336424+00:00 lab-vm systemd[1]: Finished grub-common.service - Record successful boot for GRUB.
+2025-09-20T21:20:52.336425+00:00 lab-vm systemd[1]: Finished plymouth-quit-wait.service - Hold until boot process finishes up.
+2025-09-20T21:20:52.336013+00:00 lab-vm rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2312.0]
+2025-09-20T21:20:52.339681+00:00 lab-vm kernel: systemd[1]: Inserted module 'autofs4'
+2025-09-20T21:20:52.339681+00:00 lab-vm kernel: systemd[1]: systemd 255.4-1ubuntu8.10 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+2025-09-20T21:20:52.339681+00:00 lab-vm kernel: systemd[1]: Detected virtualization qemu.
+2025-09-20T21:20:52.339681+00:00 lab-vm kernel: systemd[1]: Detected architecture arm64.
+2025-09-20T21:20:52.339682+00:00 lab-vm kernel: systemd[1]: Hostname set to <ubuntu>.
+2025-09-20T21:20:52.339683+00:00 lab-vm kernel: systemd[1]: Initializing machine ID from random generator.
+2025-09-20T21:20:52.339683+00:00 lab-vm kernel: systemd[1]: Installed transient /etc/machine-id file.
+2025-09-20T21:20:52.339683+00:00 lab-vm kernel: systemd[1]: Queued start job for default target graphical.target.
+2025-09-20T21:20:52.339684+00:00 lab-vm kernel: systemd[1]: Created slice system-modprobe.slice - Slice /system/modprobe.
+2025-09-20T21:20:52.339684+00:00 lab-vm kernel: systemd[1]: Created slice system-serial\x2dgetty.slice - Slice /system/serial-getty.
+2025-09-20T21:20:52.339684+00:00 lab-vm kernel: systemd[1]: Created slice system-systemd\x2dfsck.slice - Slice /system/systemd-fsck.
+2025-09-20T21:20:52.339685+00:00 lab-vm kernel: systemd[1]: Created slice user.slice - User and Session Slice.
+2025-09-20T21:20:52.339685+00:00 lab-vm kernel: systemd[1]: Started systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+2025-09-20T21:20:52.339686+00:00 lab-vm kernel: systemd[1]: Set up automount proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point.
+2025-09-20T21:20:52.339686+00:00 lab-vm kernel: systemd[1]: Expecting device dev-disk-by\x2dlabel-BOOT.device - /dev/disk/by-label/BOOT...
+2025-09-20T21:20:52.339686+00:00 lab-vm kernel: systemd[1]: Expecting device dev-disk-by\x2dlabel-UEFI.device - /dev/disk/by-label/UEFI...
+2025-09-20T21:20:52.339686+00:00 lab-vm kernel: systemd[1]: Expecting device dev-ttyAMA0.device - /dev/ttyAMA0...
+2025-09-20T21:20:52.339687+00:00 lab-vm kernel: systemd[1]: Reached target integritysetup.target - Local Integrity Protected Volumes.
+2025-09-20T21:20:52.339687+00:00 lab-vm kernel: systemd[1]: Reached target slices.target - Slice Units.
+2025-09-20T21:20:52.339687+00:00 lab-vm kernel: systemd[1]: Reached target snapd.mounts-pre.target - Mounting snaps.
+2025-09-20T21:20:52.339688+00:00 lab-vm kernel: systemd[1]: Reached target snapd.mounts.target - Mounted snaps.
+2025-09-20T21:20:52.339688+00:00 lab-vm kernel: systemd[1]: Reached target swap.target - Swaps.
+2025-09-20T21:20:52.339688+00:00 lab-vm kernel: systemd[1]: Reached target veritysetup.target - Local Verity Protected Volumes.
+2025-09-20T21:20:52.339689+00:00 lab-vm kernel: systemd[1]: Listening on dm-event.socket - Device-mapper event daemon FIFOs.
+2025-09-20T21:20:52.339689+00:00 lab-vm kernel: systemd[1]: Listening on lvm2-lvmpolld.socket - LVM2 poll daemon socket.
+2025-09-20T21:20:52.339689+00:00 lab-vm kernel: systemd[1]: Listening on multipathd.socket - multipathd control socket.
+2025-09-20T21:20:52.339689+00:00 lab-vm kernel: systemd[1]: Listening on syslog.socket - Syslog Socket.
+2025-09-20T21:20:52.339690+00:00 lab-vm kernel: systemd[1]: Listening on systemd-fsckd.socket - fsck to fsckd communication Socket.
+2025-09-20T21:20:52.339690+00:00 lab-vm kernel: systemd[1]: Listening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+2025-09-20T21:20:52.339690+00:00 lab-vm kernel: systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+2025-09-20T21:20:52.339691+00:00 lab-vm kernel: systemd[1]: Listening on systemd-journald.socket - Journal Socket.
+2025-09-20T21:20:52.339691+00:00 lab-vm kernel: systemd[1]: Listening on systemd-networkd.socket - Network Service Netlink Socket.
+2025-09-20T21:20:52.339691+00:00 lab-vm kernel: systemd[1]: systemd-pcrextend.socket - TPM2 PCR Extension (Varlink) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2025-09-20T21:20:52.339692+00:00 lab-vm kernel: systemd[1]: Listening on systemd-udevd-control.socket - udev Control Socket.
+2025-09-20T21:20:52.339692+00:00 lab-vm kernel: systemd[1]: Listening on systemd-udevd-kernel.socket - udev Kernel Socket.
+2025-09-20T21:20:52.339692+00:00 lab-vm kernel: systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+2025-09-20T21:20:52.339693+00:00 lab-vm kernel: systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+2025-09-20T21:20:52.339693+00:00 lab-vm kernel: systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+2025-09-20T21:20:52.339693+00:00 lab-vm kernel: systemd[1]: Mounting sys-kernel-tracing.mount - Kernel Trace File System...
+2025-09-20T21:20:52.339693+00:00 lab-vm kernel: systemd[1]: Starting systemd-journald.service - Journal Service...
+2025-09-20T21:20:52.339694+00:00 lab-vm kernel: systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+2025-09-20T21:20:52.339694+00:00 lab-vm kernel: systemd[1]: Starting kmod-static-nodes.service - Create List of Static Device Nodes...
+2025-09-20T21:20:52.339695+00:00 lab-vm kernel: systemd[1]: Starting lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+2025-09-20T21:20:52.339695+00:00 lab-vm kernel: systemd[1]: Starting modprobe@configfs.service - Load Kernel Module configfs...
+2025-09-20T21:20:52.339695+00:00 lab-vm kernel: systemd-journald[284]: Collecting audit messages is disabled.
+2025-09-20T21:20:52.339695+00:00 lab-vm kernel: systemd[1]: Starting modprobe@dm_mod.service - Load Kernel Module dm_mod...
+2025-09-20T21:20:52.339696+00:00 lab-vm kernel: systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+2025-09-20T21:20:52.339701+00:00 lab-vm kernel: systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+2025-09-20T21:20:52.339702+00:00 lab-vm kernel: systemd[1]: Starting modprobe@fuse.service - Load Kernel Module fuse...
+2025-09-20T21:20:52.339702+00:00 lab-vm kernel: systemd[1]: Starting modprobe@loop.service - Load Kernel Module loop...
+2025-09-20T21:20:52.339703+00:00 lab-vm kernel: systemd[1]: netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup was skipped because of an unmet condition check (ConditionFileIsExecutable=/usr/bin/ovs-vsctl).
+2025-09-20T21:20:52.339703+00:00 lab-vm kernel: systemd[1]: Starting systemd-fsck-root.service - File System Check on Root Device...
+2025-09-20T21:20:52.339703+00:00 lab-vm kernel: systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+2025-09-20T21:20:52.339704+00:00 lab-vm kernel: systemd[1]: systemd-pcrmachine.service - TPM2 PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2025-09-20T21:20:52.339704+00:00 lab-vm kernel: systemd[1]: systemd-tpm2-setup-early.service - TPM2 SRK Setup (Early) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2025-09-20T21:20:52.339705+00:00 lab-vm kernel: systemd[1]: Starting systemd-udev-trigger.service - Coldplug All udev Devices...
+2025-09-20T21:20:52.339705+00:00 lab-vm kernel: systemd[1]: Started systemd-journald.service - Journal Service.
+2025-09-20T21:20:52.339706+00:00 lab-vm kernel: systemd-journald[284]: Received client request to flush runtime journal.
+2025-09-20T21:20:52.337969+00:00 lab-vm systemd[1]: Finished apport.service - automatic crash report generation.
+2025-09-20T21:20:52.338736+00:00 lab-vm systemd[1]: Started rsyslog.service - System Logging Service.
+2025-09-20T21:20:52.340778+00:00 lab-vm systemd[1]: Finished plymouth-quit.service - Terminate Plymouth Boot Screen.
+2025-09-20T21:20:52.350093+00:00 lab-vm systemd[1]: Starting grub-initrd-fallback.service - GRUB failed boot detection...
+2025-09-20T21:20:52.351720+00:00 lab-vm systemd[1]: Started serial-getty@ttyAMA0.service - Serial Getty on ttyAMA0.
+2025-09-20T21:20:52.359092+00:00 lab-vm systemd[1]: Starting setvtrgb.service - Set console scheme...
+2025-09-20T21:20:52.362826+00:00 lab-vm systemd[1]: Finished setvtrgb.service - Set console scheme.
+2025-09-20T21:20:52.362924+00:00 lab-vm systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+2025-09-20T21:20:52.366293+00:00 lab-vm systemd[1]: Started getty@tty1.service - Getty on tty1.
+2025-09-20T21:20:52.368770+00:00 lab-vm systemd[1]: Reached target getty.target - Login Prompts.
+2025-09-20T21:20:52.370648+00:00 lab-vm systemd[1]: Cannot find unit for notify message of PID 876, ignoring.
+2025-09-20T21:20:52.372783+00:00 lab-vm systemd[1]: grub-initrd-fallback.service: Deactivated successfully.
+2025-09-20T21:20:52.373674+00:00 lab-vm systemd[1]: Finished grub-initrd-fallback.service - GRUB failed boot detection.
+2025-09-20T21:20:52.374200+00:00 lab-vm systemd[1]: Started polkit.service - Authorization Manager.
+2025-09-20T21:20:52.381674+00:00 lab-vm systemd[1]: Starting ModemManager.service - Modem Manager...
+2025-09-20T21:20:52.399529+00:00 lab-vm systemd[1]: Started udisks2.service - Disk Manager.
+2025-09-20T21:20:52.427349+00:00 lab-vm systemd[1]: tmp-syscheck\x2dmountpoint\x2d2998123984.mount: Deactivated successfully.
+2025-09-20T21:20:52.467779+00:00 lab-vm systemd[1]: Started ModemManager.service - Modem Manager.
+2025-09-20T21:20:52.516597+00:00 lab-vm systemd[1]: Started snapd.service - Snap Daemon.
+2025-09-20T21:20:52.549897+00:00 lab-vm dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.9' (uid=0 pid=784 comm="/usr/lib/snapd/snapd" label="unconfined")
+2025-09-20T21:20:52.557296+00:00 lab-vm systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2025-09-20T21:20:52.571216+00:00 lab-vm systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2025-09-20T21:20:52.583251+00:00 lab-vm systemd[1]: Finished cloud-config.service - Cloud-init: Config Stage.
+2025-09-20T21:20:52.728865+00:00 lab-vm systemd[1]: pollinate.service: Deactivated successfully.
+2025-09-20T21:20:52.728949+00:00 lab-vm systemd[1]: Finished pollinate.service - Pollinate to seed the pseudo random number generator.
+2025-09-20T21:20:53.622354+00:00 lab-vm systemd[1]: Finished snapd.seeded.service - Wait until snapd is fully seeded.
+2025-09-20T21:20:53.624865+00:00 lab-vm systemd[1]: snapd.autoimport.service - Auto import assertions from block devices was skipped because no trigger condition checks were met.
+2025-09-20T21:20:53.625375+00:00 lab-vm systemd[1]: Reached target multi-user.target - Multi-User System.
+2025-09-20T21:20:53.627010+00:00 lab-vm systemd[1]: Reached target graphical.target - Graphical Interface.
+2025-09-20T21:20:53.638785+00:00 lab-vm systemd[1]: Starting cloud-final.service - Cloud-init: Final Stage...
+2025-09-20T21:20:53.639010+00:00 lab-vm systemd[1]: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+2025-09-20T21:20:53.654762+00:00 lab-vm systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+2025-09-20T21:20:53.654876+00:00 lab-vm systemd[1]: Finished systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP.
+2025-09-20T21:20:53.810981+00:00 lab-vm systemd[1]: Starting apt-news.service - Update APT News...
+2025-09-20T21:20:53.813492+00:00 lab-vm systemd[1]: Starting esm-cache.service - Update the local ESM caches...
+2025-09-20T21:20:54.090896+00:00 lab-vm systemd-timesyncd[496]: Network configuration changed, trying to establish connection.
+2025-09-20T21:20:54.187526+00:00 lab-vm systemd[1]: apt-news.service: Deactivated successfully.
+2025-09-20T21:20:54.187621+00:00 lab-vm systemd[1]: Finished apt-news.service - Update APT News.
+2025-09-20T21:20:54.344722+00:00 lab-vm systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2025-09-20T21:20:54.357865+00:00 lab-vm systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2025-09-20T21:20:54.391869+00:00 lab-vm systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2025-09-20T21:20:54.393167+00:00 lab-vm systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2025-09-20T21:20:54.401944+00:00 lab-vm systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2025-09-20T21:20:54.411666+00:00 lab-vm systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2025-09-20T21:20:54.463324+00:00 lab-vm systemd[1064]: Queued start job for default target default.target.
+2025-09-20T21:20:54.466837+00:00 lab-vm systemd[1064]: Created slice app.slice - User Application Slice.
+2025-09-20T21:20:54.466857+00:00 lab-vm systemd[1064]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+2025-09-20T21:20:54.466870+00:00 lab-vm systemd[1064]: Reached target paths.target - Paths.
+2025-09-20T21:20:54.466881+00:00 lab-vm systemd[1064]: Reached target timers.target - Timers.
+2025-09-20T21:20:54.468975+00:00 lab-vm systemd[1064]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2025-09-20T21:20:54.469001+00:00 lab-vm systemd[1064]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2025-09-20T21:20:54.469101+00:00 lab-vm systemd[1064]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2025-09-20T21:20:54.469141+00:00 lab-vm systemd[1064]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2025-09-20T21:20:54.469160+00:00 lab-vm systemd[1064]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-09-20T21:20:54.469178+00:00 lab-vm systemd[1064]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2025-09-20T21:20:54.469212+00:00 lab-vm systemd[1064]: Listening on keyboxd.socket - GnuPG public key management service.
+2025-09-20T21:20:54.469222+00:00 lab-vm systemd[1064]: Listening on pk-debconf-helper.socket - debconf communication socket.
+2025-09-20T21:20:54.469234+00:00 lab-vm systemd[1064]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+2025-09-20T21:20:54.471124+00:00 lab-vm systemd[1064]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2025-09-20T21:20:54.474525+00:00 lab-vm systemd[1064]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-09-20T21:20:54.475058+00:00 lab-vm systemd[1064]: Reached target sockets.target - Sockets.
+2025-09-20T21:20:54.475075+00:00 lab-vm systemd[1064]: Reached target basic.target - Basic System.
+2025-09-20T21:20:54.475087+00:00 lab-vm systemd[1064]: Reached target default.target - Main User Target.
+2025-09-20T21:20:54.475100+00:00 lab-vm systemd[1064]: Startup finished in 58ms.
+2025-09-20T21:20:54.475111+00:00 lab-vm systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2025-09-20T21:20:54.476414+00:00 lab-vm systemd[1]: Started session-1.scope - Session 1 of User ubuntu.
+2025-09-20T21:20:56.207089+00:00 lab-vm systemd[1]: esm-cache.service: Deactivated successfully.
+2025-09-20T21:20:56.207144+00:00 lab-vm systemd[1]: Finished esm-cache.service - Update the local ESM caches.
+2025-09-20T21:20:57.134984+00:00 lab-vm systemd[1]: dmesg.service: Deactivated successfully.
+2025-09-20T21:20:58.659637+00:00 lab-vm dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.14' (uid=0 pid=1404 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+2025-09-20T21:20:58.670723+00:00 lab-vm systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2025-09-20T21:20:58.693646+00:00 lab-vm systemd[1]: Started packagekit.service - PackageKit Daemon.
+2025-09-20T21:21:00.553276+00:00 lab-vm systemd[1]: snapd.service: Deactivated successfully.
+2025-09-20T21:21:02.492312+00:00 lab-vm systemd[1]: Finished cloud-final.service - Cloud-init: Final Stage.
+2025-09-20T21:21:02.492594+00:00 lab-vm systemd[1]: Reached target cloud-init.target - Cloud-init target.
+2025-09-20T21:21:02.492787+00:00 lab-vm systemd[1]: Startup finished in 1.851s (kernel) + 14.390s (userspace) = 16.242s.
+2025-09-20T21:21:15.987793+00:00 lab-vm systemd[1]: Started session-3.scope - Session 3 of User ubuntu.
+2025-09-20T21:21:16.033745+00:00 lab-vm systemd[1]: Starting snapd.service - Snap Daemon...
+2025-09-20T21:21:16.083075+00:00 lab-vm systemd[1]: tmp-syscheck\x2dmountpoint\x2d2736358366.mount: Deactivated successfully.
+2025-09-20T21:21:16.124536+00:00 lab-vm systemd[1]: Started snapd.service - Snap Daemon.
+2025-09-20T21:21:18.924212+00:00 lab-vm systemd[1]: systemd-fsckd.service: Deactivated successfully.
+2025-09-20T21:21:19.862962+00:00 lab-vm systemd[1]: Reloading requested from client PID 1673 ('systemctl') (unit snapd.service)...
+2025-09-20T21:21:19.863034+00:00 lab-vm systemd[1]: Reloading...
+2025-09-20T21:21:19.944245+00:00 lab-vm systemd[1]: Reloading finished in 81 ms.
+2025-09-20T21:21:19.959864+00:00 lab-vm systemd[1]: Cannot find unit for notify message of PID 1673, ignoring.
+2025-09-20T21:21:19.968660+00:00 lab-vm systemd[1]: Mounting snap-snapd-25205.mount - Mount unit for snapd, revision 25205...
+2025-09-20T21:21:19.970345+00:00 lab-vm systemd[1]: Mounted snap-snapd-25205.mount - Mount unit for snapd, revision 25205.
+2025-09-20T21:21:19.970633+00:00 lab-vm systemd[1]: Cannot find unit for notify message of PID 1718, ignoring.
+2025-09-20T21:21:23.188456+00:00 lab-vm systemd[1]: snapd.service: Deactivated successfully.
+2025-09-20T21:21:23.467126+00:00 lab-vm systemd[1]: snapd.service: Scheduled restart job, restart counter is at 1.
+2025-09-20T21:21:23.474661+00:00 lab-vm systemd[1]: Starting snapd.service - Snap Daemon...
+2025-09-20T21:21:24.077707+00:00 lab-vm systemd[1]: tmp-syscheck\x2dmountpoint\x2d3012768382.mount: Deactivated successfully.
+2025-09-20T21:21:24.199166+00:00 lab-vm systemd[1]: Started snapd.service - Snap Daemon.
+2025-09-20T21:21:24.284385+00:00 lab-vm systemd-timesyncd[496]: Contacted time server 185.125.190.58:123 (ntp.ubuntu.com).
+2025-09-20T21:21:24.284420+00:00 lab-vm systemd-timesyncd[496]: Initial clock synchronization to Sun 2025-09-21 00:21:24.340663 MSK.
+2025-09-20T21:21:25.231495+00:00 lab-vm systemd[1]: Reloading requested from client PID 1910 ('systemctl') (unit snapd.service)...
+2025-09-20T21:21:25.231616+00:00 lab-vm systemd[1]: Reloading...
+2025-09-20T21:21:25.320582+00:00 lab-vm systemd[1]: Reloading finished in 88 ms.
+2025-09-20T21:21:25.362719+00:00 lab-vm systemd[1]: Mounting snap-bare-5.mount - Mount unit for bare, revision 5...
+2025-09-20T21:21:25.364545+00:00 lab-vm systemd[1]: Mounted snap-bare-5.mount - Mount unit for bare, revision 5.
+2025-09-20T21:21:25.364751+00:00 lab-vm systemd[1]: Cannot find unit for notify message of PID 1955, ignoring.
+2025-09-20T21:21:26.583718+00:00 lab-vm systemd[1]: Reloading requested from client PID 2005 ('systemctl') (unit snapd.service)...
+2025-09-20T21:21:26.583822+00:00 lab-vm systemd[1]: Reloading...
+2025-09-20T21:21:26.675757+00:00 lab-vm systemd[1]: Reloading finished in 91 ms.
+2025-09-20T21:21:26.724681+00:00 lab-vm systemd[1]: Mounting snap-multipass\x2dsshfs-147.mount - Mount unit for multipass-sshfs, revision 147...
+2025-09-20T21:21:26.727201+00:00 lab-vm systemd[1]: Mounted snap-multipass\x2dsshfs-147.mount - Mount unit for multipass-sshfs, revision 147.
+2025-09-20T21:21:26.727637+00:00 lab-vm systemd[1]: Cannot find unit for notify message of PID 2050, ignoring.
+2025-09-20T21:21:27.059635+00:00 lab-vm systemd[1]: Started session-4.scope - Session 4 of User ubuntu.
+2025-09-20T21:21:27.426736+00:00 lab-vm systemd[1064]: Created slice session.slice - User Core Session Slice.
+2025-09-20T21:21:27.436587+00:00 lab-vm systemd[1064]: Starting dbus.service - D-Bus User Message Bus...
+2025-09-20T21:21:27.439762+00:00 lab-vm systemd[1064]: Started dbus.service - D-Bus User Message Bus.
+2025-09-20T21:21:27.442431+00:00 lab-vm systemd[1064]: Started snap.multipass-sshfs.env-df97c0d6-746d-43a4-b696-d92f82886201.scope.
+2025-09-20T21:21:33.145770+00:00 lab-vm systemd[1]: Started session-5.scope - Session 5 of User ubuntu.
+2025-09-20T21:21:54.329156+00:00 lab-vm systemd[1]: systemd-timedated.service: Deactivated successfully.
+2025-09-20T21:26:04.321480+00:00 lab-vm systemd[1]: packagekit.service: Deactivated successfully.
+2025-09-20T21:26:04.327025+00:00 lab-vm systemd[1]: Starting update-notifier-download.service - Download data for packages that failed at package install time...
+2025-09-20T21:26:04.395458+00:00 lab-vm systemd[1]: update-notifier-download.service: Deactivated successfully.
+2025-09-20T21:26:04.395570+00:00 lab-vm systemd[1]: Finished update-notifier-download.service - Download data for packages that failed at package install time.
+2025-09-20T21:26:21.228563+00:00 lab-vm systemd[1064]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache was skipped because of an unmet condition check (ConditionPathExists=/home/ubuntu/.launchpadlib/api.launchpad.net/cache).
+2025-09-20T21:30:21.240605+00:00 lab-vm systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-09-20T21:30:21.248119+00:00 lab-vm systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-09-20T21:30:21.248313+00:00 lab-vm systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-09-20T21:36:21.237604+00:00 lab-vm systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2025-09-20T21:36:21.291687+00:00 lab-vm systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2025-09-20T21:36:21.291804+00:00 lab-vm systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2025-09-20T21:40:11.290495+00:00 lab-vm systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-09-20T21:40:11.297278+00:00 lab-vm systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-09-20T21:40:11.297352+00:00 lab-vm systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-09-20T21:50:12.122485+00:00 lab-vm systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-09-20T21:50:12.128060+00:00 lab-vm systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-09-20T21:50:12.128261+00:00 lab-vm systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-09-20T22:00:21.235451+00:00 lab-vm systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-09-20T22:00:21.239965+00:00 lab-vm systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-09-20T22:00:21.240055+00:00 lab-vm systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-09-20T22:10:11.230624+00:00 lab-vm systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-09-20T22:10:11.238476+00:00 lab-vm systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-09-20T22:10:11.238699+00:00 lab-vm systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-09-20T22:20:11.230825+00:00 lab-vm systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-09-20T22:20:11.234630+00:00 lab-vm systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-09-20T22:20:11.234708+00:00 lab-vm systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-09-20T22:22:19.198318+00:00 lab-vm systemd[1]: session-5.scope: Deactivated successfully.
+2025-09-20T22:22:19.198426+00:00 lab-vm systemd[1]: session-5.scope: Consumed 7.258s CPU time.
+2025-09-20T22:24:55.805194+00:00 lab-vm systemd[1]: home-user-lab1.mount: Deactivated successfully.
+2025-09-20T22:24:55.818175+00:00 lab-vm systemd[1]: session-4.scope: Deactivated successfully.
+2025-09-20T22:24:55.818634+00:00 lab-vm systemd[1]: session-4.scope: Consumed 1.673s CPU time.
+2025-09-20T22:24:55.822805+00:00 lab-vm systemd[1]: session-1.scope: Deactivated successfully.
+2025-09-20T22:24:55.824363+00:00 lab-vm systemd[1]: session-3.scope: Deactivated successfully.
+2025-09-20T22:24:55.836689+00:00 lab-vm systemd[1]: unattended-upgrades.service: Deactivated successfully.
+2025-09-20T22:24:55.845051+00:00 lab-vm systemd[1]: Removed slice system-modprobe.slice - Slice /system/modprobe.
+2025-09-20T22:24:55.847571+00:00 lab-vm systemd[1]: Stopped target cloud-init.target - Cloud-init target.
+2025-09-20T22:24:55.847980+00:00 lab-vm systemd[1]: Stopped target graphical.target - Graphical Interface.
+2025-09-20T22:24:55.847998+00:00 lab-vm systemd[1]: Stopped target nss-lookup.target - Host and Network Name Lookups.
+2025-09-20T22:24:55.848031+00:00 lab-vm systemd[1]: Stopped target timers.target - Timer Units.
+2025-09-20T22:24:55.848057+00:00 lab-vm systemd[1]: apt-daily-upgrade.timer: Deactivated successfully.
+2025-09-20T22:24:55.848075+00:00 lab-vm systemd[1]: Stopped apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+2025-09-20T22:24:55.848102+00:00 lab-vm systemd[1]: apt-daily.timer: Deactivated successfully.
+2025-09-20T22:24:55.848117+00:00 lab-vm systemd[1]: Stopped apt-daily.timer - Daily apt download activities.
+2025-09-20T22:24:55.848132+00:00 lab-vm systemd[1]: dpkg-db-backup.timer: Deactivated successfully.
+2025-09-20T22:24:55.848144+00:00 lab-vm systemd[1]: Stopped dpkg-db-backup.timer - Daily dpkg database backup timer.
+2025-09-20T22:24:55.848157+00:00 lab-vm systemd[1]: e2scrub_all.timer: Deactivated successfully.
+2025-09-20T22:24:55.848182+00:00 lab-vm systemd[1]: Stopped e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+2025-09-20T22:24:55.848307+00:00 lab-vm systemd[1]: fstrim.timer: Deactivated successfully.
+2025-09-20T22:24:55.848371+00:00 lab-vm systemd[1]: Stopped fstrim.timer - Discard unused filesystem blocks once a week.
+2025-09-20T22:24:55.848750+00:00 lab-vm systemd[1]: fwupd-refresh.timer: Deactivated successfully.
+2025-09-20T22:24:55.848813+00:00 lab-vm systemd[1]: Stopped fwupd-refresh.timer - Refresh fwupd metadata regularly.
+2025-09-20T22:24:55.849439+00:00 lab-vm systemd[1]: logrotate.timer: Deactivated successfully.
+2025-09-20T22:24:55.849491+00:00 lab-vm systemd[1]: Stopped logrotate.timer - Daily rotation of log files.
+2025-09-20T22:24:55.849516+00:00 lab-vm systemd[1]: man-db.timer: Deactivated successfully.
+2025-09-20T22:24:55.849535+00:00 lab-vm systemd[1]: Stopped man-db.timer - Daily man-db regeneration.
+2025-09-20T22:24:55.849549+00:00 lab-vm systemd[1]: motd-news.timer: Deactivated successfully.
+2025-09-20T22:24:55.849562+00:00 lab-vm systemd[1]: Stopped motd-news.timer - Message of the Day.
+2025-09-20T22:24:55.849867+00:00 lab-vm systemd[1]: sysstat-collect.timer: Deactivated successfully.
+2025-09-20T22:24:55.849931+00:00 lab-vm systemd[1]: Stopped sysstat-collect.timer - Run system activity accounting tool every 10 minutes.
+2025-09-20T22:24:55.850937+00:00 lab-vm systemd[1]: sysstat-summary.timer: Deactivated successfully.
+2025-09-20T22:24:55.851002+00:00 lab-vm systemd[1]: Stopped sysstat-summary.timer - Generate summary of yesterday's process accounting.
+2025-09-20T22:24:55.851722+00:00 lab-vm systemd[1]: systemd-tmpfiles-clean.timer: Deactivated successfully.
+2025-09-20T22:24:55.851763+00:00 lab-vm systemd[1]: Stopped systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+2025-09-20T22:24:55.852055+00:00 lab-vm systemd[1]: update-notifier-download.timer: Deactivated successfully.
+2025-09-20T22:24:55.852105+00:00 lab-vm systemd[1]: Stopped update-notifier-download.timer - Download data for packages that failed at package install time.
+2025-09-20T22:24:55.852379+00:00 lab-vm systemd[1]: update-notifier-motd.timer: Deactivated successfully.
+2025-09-20T22:24:55.852440+00:00 lab-vm systemd[1]: Stopped update-notifier-motd.timer - Check to see whether there is a new version of Ubuntu available.
+2025-09-20T22:24:55.853358+00:00 lab-vm systemd[1]: cloud-init-hotplugd.socket: Deactivated successfully.
+2025-09-20T22:24:55.853707+00:00 lab-vm systemd[1]: Closed cloud-init-hotplugd.socket - cloud-init hotplug hook socket.
+2025-09-20T22:24:55.853792+00:00 lab-vm systemd[1]: lvm2-lvmpolld.socket: Deactivated successfully.
+2025-09-20T22:24:55.853862+00:00 lab-vm systemd[1]: Closed lvm2-lvmpolld.socket - LVM2 poll daemon socket.
+2025-09-20T22:24:55.854111+00:00 lab-vm systemd[1]: systemd-rfkill.socket: Deactivated successfully.
+2025-09-20T22:24:55.854197+00:00 lab-vm systemd[1]: Closed systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+2025-09-20T22:24:55.859239+00:00 lab-vm systemd[1]: Stopping blk-availability.service - Availability of block devices...
+2025-09-20T22:24:55.859323+00:00 lab-vm systemd[1]: cloud-final.service: Deactivated successfully.
+2025-09-20T22:24:55.859416+00:00 lab-vm systemd[1]: Stopped cloud-final.service - Cloud-init: Final Stage.
+2025-09-20T22:24:55.860774+00:00 lab-vm systemd[1]: cloud-final.service: Consumed 6.791s CPU time.
+2025-09-20T22:24:55.860923+00:00 lab-vm systemd[1]: Stopped target multi-user.target - Multi-User System.
+2025-09-20T22:24:55.860941+00:00 lab-vm systemd[1]: Stopped target getty.target - Login Prompts.
+2025-09-20T22:24:55.860952+00:00 lab-vm systemd[1]: Stopping ModemManager.service - Modem Manager...
+2025-09-20T22:24:55.862051+00:00 lab-vm systemd[1]: Stopping apport.service - automatic crash report generation...
+2025-09-20T22:24:55.862085+00:00 lab-vm systemd[1]: cloud-config.service: Deactivated successfully.
+2025-09-20T22:24:55.862417+00:00 lab-vm systemd[1]: Stopped cloud-config.service - Cloud-init: Config Stage.
+2025-09-20T22:24:55.863784+00:00 lab-vm systemd[1]: Stopped target cloud-config.target - Cloud-config availability.
+2025-09-20T22:24:55.863866+00:00 lab-vm systemd[1]: Stopped target network-online.target - Network is Online.
+2025-09-20T22:24:55.864139+00:00 lab-vm systemd[1]: Stopping cron.service - Regular background program processing daemon...
+2025-09-20T22:24:55.871665+00:00 lab-vm systemd[1]: Stopping finalrd.service - Create final runtime dir for shutdown pivot root...
+2025-09-20T22:24:55.872527+00:00 lab-vm systemd[1]: Stopping getty@tty1.service - Getty on tty1...
+2025-09-20T22:24:55.872544+00:00 lab-vm systemd[1]: plymouth-quit.service: Deactivated successfully.
+2025-09-20T22:24:55.872560+00:00 lab-vm systemd[1]: Stopped plymouth-quit.service - Terminate Plymouth Boot Screen.
+2025-09-22T22:04:47.990767+03:00 lab-vm systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+2025-09-22T22:04:47.990796+03:00 lab-vm systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+2025-09-22T22:04:47.990798+03:00 lab-vm systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+2025-09-22T22:04:47.990800+03:00 lab-vm systemd[1]: Mounted sys-kernel-tracing.mount - Kernel Trace File System.
+2025-09-22T22:04:47.990801+03:00 lab-vm systemd[1]: Finished kmod-static-nodes.service - Create List of Static Device Nodes.
+2025-09-22T22:04:47.990802+03:00 lab-vm systemd[1]: modprobe@configfs.service: Deactivated successfully.
+2025-09-22T22:04:47.990804+03:00 lab-vm systemd[1]: Finished modprobe@configfs.service - Load Kernel Module configfs.
+2025-09-22T22:04:47.990805+03:00 lab-vm systemd[1]: modprobe@dm_mod.service: Deactivated successfully.
+2025-09-22T22:04:47.990806+03:00 lab-vm systemd[1]: Finished modprobe@dm_mod.service - Load Kernel Module dm_mod.
+2025-09-22T22:04:47.990807+03:00 lab-vm systemd[1]: modprobe@drm.service: Deactivated successfully.
+2025-09-22T22:04:47.990808+03:00 lab-vm systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+2025-09-22T22:04:47.990809+03:00 lab-vm systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+2025-09-22T22:04:47.990810+03:00 lab-vm systemd[1]: Finished modprobe@efi_pstore.service - Load Kernel Module efi_pstore.
+2025-09-22T22:04:47.990811+03:00 lab-vm systemd[1]: modprobe@fuse.service: Deactivated successfully.
+2025-09-22T22:04:47.990813+03:00 lab-vm systemd[1]: Finished modprobe@fuse.service - Load Kernel Module fuse.
+2025-09-22T22:04:47.990814+03:00 lab-vm systemd-modules-load[300]: Inserted module 'dm_multipath'
+2025-09-22T22:04:47.990816+03:00 lab-vm systemd[1]: modprobe@loop.service: Deactivated successfully.
+2025-09-22T22:04:47.990817+03:00 lab-vm systemd[1]: Finished modprobe@loop.service - Load Kernel Module loop.
+2025-09-22T22:04:47.990818+03:00 lab-vm systemd[1]: Finished systemd-modules-load.service - Load Kernel Modules.
+2025-09-22T22:04:47.990819+03:00 lab-vm systemd-fsck[303]: cloudimg-rootfs: clean, 87764/1179648 files, 612790/2359035 blocks
+2025-09-22T22:04:47.990821+03:00 lab-vm systemd[1]: Mounting sys-fs-fuse-connections.mount - FUSE Control File System...
+2025-09-22T22:04:47.990822+03:00 lab-vm systemd[1]: Mounting sys-kernel-config.mount - Kernel Configuration File System...
+2025-09-22T22:04:47.990823+03:00 lab-vm systemd[1]: Started systemd-fsckd.service - File System Check Daemon to report status.
+2025-09-22T22:04:47.990825+03:00 lab-vm systemd[1]: systemd-repart.service - Repartition Root Disk was skipped because no trigger condition checks were met.
+2025-09-22T22:04:47.990826+03:00 lab-vm systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variables...
+2025-09-22T22:04:47.990827+03:00 lab-vm systemd[1]: Starting systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully...
+2025-09-22T22:04:47.990829+03:00 lab-vm systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+2025-09-22T22:04:47.990831+03:00 lab-vm systemd[1]: Finished systemd-fsck-root.service - File System Check on Root Device.
+2025-09-22T22:04:47.990832+03:00 lab-vm systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+2025-09-22T22:04:47.990833+03:00 lab-vm systemd[1]: Mounted sys-kernel-config.mount - Kernel Configuration File System.
+2025-09-22T22:04:47.990835+03:00 lab-vm systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+2025-09-22T22:04:47.990836+03:00 lab-vm systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+2025-09-22T22:04:47.990838+03:00 lab-vm systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+2025-09-22T22:04:47.990839+03:00 lab-vm systemd[1]: Finished systemd-remount-fs.service - Remount Root and Kernel File Systems.
+2025-09-22T22:04:47.990841+03:00 lab-vm systemd[1]: Starting multipathd.service - Device-Mapper Multipath Device Controller...
+2025-09-22T22:04:47.990842+03:00 lab-vm systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+2025-09-22T22:04:47.990843+03:00 lab-vm systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+2025-09-22T22:04:47.990845+03:00 lab-vm systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+2025-09-22T22:04:47.990847+03:00 lab-vm systemd[1]: Starting systemd-random-seed.service - Load/Save OS Random Seed...
+2025-09-22T22:04:47.990848+03:00 lab-vm systemd[1]: systemd-sysusers.service - Create System Users was skipped because no trigger condition checks were met.
+2025-09-22T22:04:47.990849+03:00 lab-vm systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+2025-09-22T22:04:47.990851+03:00 lab-vm systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2025-09-22T22:04:47.990852+03:00 lab-vm systemd-random-seed[339]: Kernel entropy pool is not initialized yet, waiting until it is.
+2025-09-22T22:04:47.990857+03:00 lab-vm systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+2025-09-22T22:04:47.990858+03:00 lab-vm systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+2025-09-22T22:04:47.990859+03:00 lab-vm systemd[1]: Started multipathd.service - Device-Mapper Multipath Device Controller.
+2025-09-22T22:04:47.990861+03:00 lab-vm systemd-udevd[347]: Using default interface naming scheme 'v255'.
+2025-09-22T22:04:47.990862+03:00 lab-vm systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+2025-09-22T22:04:47.990863+03:00 lab-vm systemd[1]: Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+2025-09-22T22:04:47.990864+03:00 lab-vm systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+2025-09-22T22:04:47.990865+03:00 lab-vm systemd[1]: plymouth-start.service - Show Plymouth Boot Screen was skipped because of an unmet condition check (ConditionKernelCommandLine=splash).
+2025-09-22T22:04:47.990866+03:00 lab-vm systemd[1]: Started systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch.
+2025-09-22T22:04:47.990868+03:00 lab-vm systemd[1]: systemd-ask-password-plymouth.path - Forward Password Requests to Plymouth Directory Watch was skipped because of an unmet condition check (ConditionPathExists=/run/plymouth/pid).
+2025-09-22T22:04:47.990870+03:00 lab-vm systemd[1]: Reached target cryptsetup.target - Local Encrypted Volumes.
+2025-09-22T22:04:47.990871+03:00 lab-vm systemd[1]: Found device dev-ttyAMA0.device - /dev/ttyAMA0.
+2025-09-22T22:04:47.990872+03:00 lab-vm systemd[1]: Finished systemd-random-seed.service - Load/Save OS Random Seed.
+2025-09-22T22:04:47.990873+03:00 lab-vm systemd[1]: Found device dev-disk-by\x2dlabel-BOOT.device - QEMU_HARDDISK BOOT.
+2025-09-22T22:04:47.990875+03:00 lab-vm systemd[1]: Found device dev-disk-by\x2dlabel-UEFI.device - QEMU_HARDDISK UEFI.
+2025-09-22T22:04:47.990876+03:00 lab-vm systemd[1]: Finished lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+2025-09-22T22:04:47.990878+03:00 lab-vm systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+2025-09-22T22:04:47.990879+03:00 lab-vm systemd[1]: Mounting snap-bare-5.mount - Mount unit for bare, revision 5...
+2025-09-22T22:04:47.990880+03:00 lab-vm systemd[1]: Mounting snap-multipass\x2dsshfs-147.mount - Mount unit for multipass-sshfs, revision 147...
+2025-09-22T22:04:47.990881+03:00 lab-vm systemd[1]: Mounting snap-snapd-25205.mount - Mount unit for snapd, revision 25205...
+2025-09-22T22:04:47.990883+03:00 lab-vm systemd[1]: Starting systemd-fsck@dev-disk-by\x2dlabel-BOOT.service - File System Check on /dev/disk/by-label/BOOT...
+2025-09-22T22:04:47.990884+03:00 lab-vm systemd[1]: Starting systemd-fsck@dev-disk-by\x2dlabel-UEFI.service - File System Check on /dev/disk/by-label/UEFI...
+2025-09-22T22:04:47.990885+03:00 lab-vm systemd[1]: Mounted snap-bare-5.mount - Mount unit for bare, revision 5.
+2025-09-22T22:04:47.990886+03:00 lab-vm systemd[1]: Mounted snap-multipass\x2dsshfs-147.mount - Mount unit for multipass-sshfs, revision 147.
+2025-09-22T22:04:47.990887+03:00 lab-vm systemd[1]: Mounted snap-snapd-25205.mount - Mount unit for snapd, revision 25205.
+2025-09-22T22:04:47.990888+03:00 lab-vm systemd[1]: Reached target snapd.mounts.target - Mounted snaps.
+2025-09-22T22:04:47.990890+03:00 lab-vm systemd-fsck[431]: fsck.fat 4.2 (2021-01-31)
+2025-09-22T22:04:47.990891+03:00 lab-vm systemd-fsck[431]: /dev/sda15: 12 files, 12965/199582 clusters
+2025-09-22T22:04:47.990893+03:00 lab-vm systemd[1]: Finished systemd-fsck@dev-disk-by\x2dlabel-UEFI.service - File System Check on /dev/disk/by-label/UEFI.
+2025-09-22T22:04:47.990895+03:00 lab-vm systemd-fsck[432]: BOOT: clean, 260/59136 files, 23113/236288 blocks
+2025-09-22T22:04:47.990896+03:00 lab-vm systemd[1]: Finished systemd-fsck@dev-disk-by\x2dlabel-BOOT.service - File System Check on /dev/disk/by-label/BOOT.
+2025-09-22T22:04:47.990897+03:00 lab-vm systemd[1]: Mounting boot.mount - /boot...
+2025-09-22T22:04:47.990899+03:00 lab-vm systemd[1]: Mounted boot.mount - /boot.
+2025-09-22T22:04:47.990900+03:00 lab-vm systemd[1]: Mounting boot-efi.mount - /boot/efi...
+2025-09-22T22:04:47.990901+03:00 lab-vm systemd[1]: Mounted boot-efi.mount - /boot/efi.
+2025-09-22T22:04:47.990903+03:00 lab-vm systemd[1]: Reached target local-fs.target - Local File Systems.
+2025-09-22T22:04:47.990904+03:00 lab-vm systemd[1]: Listening on systemd-sysext.socket - System Extension Image Management (Varlink).
+2025-09-22T22:04:47.990905+03:00 lab-vm systemd[1]: Starting apparmor.service - Load AppArmor profiles...
+2025-09-22T22:04:47.990907+03:00 lab-vm systemd[1]: Starting console-setup.service - Set console font and keymap...
+2025-09-22T22:04:47.990908+03:00 lab-vm systemd[1]: Starting finalrd.service - Create final runtime dir for shutdown pivot root...
+2025-09-22T22:04:47.990909+03:00 lab-vm systemd[1]: ldconfig.service - Rebuild Dynamic Linker Cache was skipped because no trigger condition checks were met.
+2025-09-22T22:04:47.990910+03:00 lab-vm systemd[1]: Starting plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data...
+2025-09-22T22:04:47.990911+03:00 lab-vm systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+2025-09-22T22:04:47.990912+03:00 lab-vm apparmor.systemd[443]: Restarting AppArmor
+2025-09-22T22:04:47.990914+03:00 lab-vm systemd[1]: Starting systemd-tmpfiles-setup.service - Create Volatile Files and Directories...
+2025-09-22T22:04:47.990915+03:00 lab-vm apparmor.systemd[443]: /lib/apparmor/apparmor.systemd: 148: [: Illegal number: yes
+2025-09-22T22:04:47.990916+03:00 lab-vm apparmor.systemd[443]: Reloading AppArmor profiles
+2025-09-22T22:04:47.990918+03:00 lab-vm systemd[1]: Starting ufw.service - Uncomplicated firewall...
+2025-09-22T22:04:47.990919+03:00 lab-vm systemd[1]: Finished console-setup.service - Set console font and keymap.
+2025-09-22T22:04:47.990920+03:00 lab-vm systemd[1]: Finished finalrd.service - Create final runtime dir for shutdown pivot root.
+2025-09-22T22:04:47.990922+03:00 lab-vm systemd[1]: Finished plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data.
+2025-09-22T22:04:47.990923+03:00 lab-vm systemd[1]: Finished ufw.service - Uncomplicated firewall.
+2025-09-22T22:04:47.990924+03:00 lab-vm systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 450 (systemd-binfmt)
+2025-09-22T22:04:47.990925+03:00 lab-vm systemd[1]: Finished systemd-tmpfiles-setup.service - Create Volatile Files and Directories.
+2025-09-22T22:04:47.990926+03:00 lab-vm systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2025-09-22T22:04:47.990928+03:00 lab-vm systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2025-09-22T22:04:47.990929+03:00 lab-vm systemd[1]: systemd-journal-catalog-update.service - Rebuild Journal Catalog was skipped because of an unmet condition check (ConditionNeedsUpdate=/var).
+2025-09-22T22:04:47.990930+03:00 lab-vm systemd[1]: systemd-machine-id-commit.service - Commit a transient machine-id on disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+2025-09-22T22:04:47.990932+03:00 lab-vm systemd[1]: Starting systemd-resolved.service - Network Name Resolution...
+2025-09-22T22:04:47.990933+03:00 lab-vm systemd[1]: Starting systemd-timesyncd.service - Network Time Synchronization...
+2025-09-22T22:04:47.990934+03:00 lab-vm systemd[1]: systemd-update-done.service - Update is Completed was skipped because no trigger condition checks were met.
+2025-09-22T22:04:47.990935+03:00 lab-vm systemd[1]: Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+2025-09-22T22:04:47.990937+03:00 lab-vm systemd[1]: Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+2025-09-22T22:04:47.990938+03:00 lab-vm systemd[1]: Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+2025-09-22T22:04:47.990939+03:00 lab-vm systemd[1]: Finished apparmor.service - Load AppArmor profiles.
+2025-09-22T22:04:47.990940+03:00 lab-vm systemd[1]: Starting snapd.apparmor.service - Load AppArmor profiles managed internally by snapd...
+2025-09-22T22:04:47.990942+03:00 lab-vm systemd[1]: vgauth.service - Authentication service for virtual machines hosted on VMware was skipped because of an unmet condition check (ConditionVirtualization=vmware).
+2025-09-22T22:04:47.990943+03:00 lab-vm systemd[1]: open-vm-tools.service - Service for virtual machines hosted on VMware was skipped because of an unmet condition check (ConditionVirtualization=vmware).
+2025-09-22T22:04:47.990944+03:00 lab-vm systemd[1]: Starting cloud-init-local.service - Cloud-init: Local Stage (pre-network)...
+2025-09-22T22:04:47.990946+03:00 lab-vm systemd[1]: Finished cloud-init-local.service - Cloud-init: Local Stage (pre-network).
+2025-09-22T22:04:47.990948+03:00 lab-vm systemd[1]: Reached target network-pre.target - Preparation for Network.
+2025-09-22T22:04:47.990949+03:00 lab-vm systemd[1]: Starting systemd-networkd.service - Network Configuration...
+2025-09-22T22:04:47.990950+03:00 lab-vm systemd[1]: Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+2025-09-22T22:04:47.990951+03:00 lab-vm systemd[1]: Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+2025-09-22T22:04:47.990953+03:00 lab-vm systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 479 ((resolved))
+2025-09-22T22:04:47.990954+03:00 lab-vm systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+2025-09-22T22:04:47.990956+03:00 lab-vm systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+2025-09-22T22:04:47.990957+03:00 lab-vm systemd[1]: Started systemd-timesyncd.service - Network Time Synchronization.
+2025-09-22T22:04:47.990958+03:00 lab-vm systemd[1]: Reached target time-set.target - System Time Set.
+2025-09-22T22:04:47.990959+03:00 lab-vm systemd-resolved[479]: Positive Trust Anchors:
+2025-09-22T22:04:47.990960+03:00 lab-vm systemd-resolved[479]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+2025-09-22T22:04:47.990961+03:00 lab-vm systemd-resolved[479]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 170.0.0.192.in-addr.arpa 171.0.0.192.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa ipv4only.arpa corp home internal intranet lan local private test
+2025-09-22T22:04:47.990963+03:00 lab-vm systemd-networkd[603]: lo: Link UP
+2025-09-22T22:04:47.990965+03:00 lab-vm systemd-networkd[603]: lo: Gained carrier
+2025-09-22T22:04:47.990966+03:00 lab-vm systemd-networkd[603]: Enumeration completed
+2025-09-22T22:04:47.990967+03:00 lab-vm systemd[1]: Started systemd-networkd.service - Network Configuration.
+2025-09-22T22:04:47.991033+03:00 lab-vm systemd-networkd[603]: enp0s1: Configuring with /run/systemd/network/10-netplan-default.network.
+2025-09-22T22:04:47.991035+03:00 lab-vm systemd-networkd[603]: enp0s1: Link UP
+2025-09-22T22:04:47.991036+03:00 lab-vm systemd-networkd[603]: enp0s1: Gained carrier
+2025-09-22T22:04:47.991037+03:00 lab-vm systemd[1]: Starting systemd-networkd-wait-online.service - Wait for Network to be Configured...
+2025-09-22T22:04:47.991038+03:00 lab-vm systemd-resolved[479]: Using system hostname 'lab-vm'.
+2025-09-22T22:04:47.991039+03:00 lab-vm systemd[1]: Started systemd-resolved.service - Network Name Resolution.
+2025-09-22T22:04:47.991040+03:00 lab-vm systemd[1]: Reached target network.target - Network.
+2025-09-22T22:04:47.991041+03:00 lab-vm systemd[1]: Reached target nss-lookup.target - Host and Network Name Lookups.
+2025-09-22T22:04:47.991042+03:00 lab-vm systemd-networkd[603]: enp0s1: DHCPv4 address 192.168.64.11/24, gateway 192.168.64.1 acquired from 192.168.64.1
+2025-09-22T22:04:47.991044+03:00 lab-vm systemd-timesyncd[487]: Network configuration changed, trying to establish connection.
+2025-09-22T22:04:47.991046+03:00 lab-vm systemd[1]: Finished snapd.apparmor.service - Load AppArmor profiles managed internally by snapd.
+2025-09-22T22:04:47.991047+03:00 lab-vm systemd-networkd[603]: enp0s1: Gained IPv6LL
+2025-09-22T22:04:47.991049+03:00 lab-vm systemd-timesyncd[487]: Network configuration changed, trying to establish connection.
+2025-09-22T22:04:47.991050+03:00 lab-vm systemd[1]: Finished systemd-networkd-wait-online.service - Wait for Network to be Configured.
+2025-09-22T22:04:47.991051+03:00 lab-vm systemd[1]: Starting cloud-init.service - Cloud-init: Network Stage...
+2025-09-22T22:04:47.991084+03:00 lab-vm systemd[1]: Finished cloud-init.service - Cloud-init: Network Stage.
+2025-09-22T22:04:47.991085+03:00 lab-vm systemd[1]: Reached target cloud-config.target - Cloud-config availability.
+2025-09-22T22:04:47.991086+03:00 lab-vm systemd[1]: Reached target network-online.target - Network is Online.
+2025-09-22T22:04:47.991087+03:00 lab-vm systemd[1]: Reached target sysinit.target - System Initialization.
+2025-09-22T22:04:47.991090+03:00 lab-vm systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2025-09-22T22:04:47.991091+03:00 lab-vm systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2025-09-22T22:04:47.991092+03:00 lab-vm systemd[1]: Started apt-daily.timer - Daily apt download activities.
+2025-09-22T22:04:47.991093+03:00 lab-vm systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+2025-09-22T22:04:47.991094+03:00 lab-vm systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+2025-09-22T22:04:47.991095+03:00 lab-vm systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+2025-09-22T22:04:47.991097+03:00 lab-vm systemd[1]: Started fstrim.timer - Discard unused filesystem blocks once a week.
+2025-09-22T22:04:47.991098+03:00 lab-vm systemd[1]: Started fwupd-refresh.timer - Refresh fwupd metadata regularly.
+2025-09-22T22:04:47.991099+03:00 lab-vm systemd[1]: Started logrotate.timer - Daily rotation of log files.
+2025-09-22T22:04:47.991100+03:00 lab-vm systemd[1]: Started man-db.timer - Daily man-db regeneration.
+2025-09-22T22:04:47.991101+03:00 lab-vm systemd[1]: Started motd-news.timer - Message of the Day.
+2025-09-22T22:04:47.991102+03:00 lab-vm systemd[1]: snapd.snap-repair.timer - Timer to automatically fetch and run repair assertions was skipped because no trigger condition checks were met.
+2025-09-22T22:04:47.991104+03:00 lab-vm systemd[1]: Started sysstat-collect.timer - Run system activity accounting tool every 10 minutes.
+2025-09-22T22:04:47.991105+03:00 lab-vm systemd[1]: Started sysstat-summary.timer - Generate summary of yesterday's process accounting.
+2025-09-22T22:04:47.991106+03:00 lab-vm systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+2025-09-22T22:04:47.991107+03:00 lab-vm systemd[1]: ua-timer.timer - Ubuntu Pro Timer for running repeated jobs was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+2025-09-22T22:04:47.991108+03:00 lab-vm systemd[1]: Started update-notifier-download.timer - Download data for packages that failed at package install time.
+2025-09-22T22:04:47.991110+03:00 lab-vm systemd[1]: Started update-notifier-motd.timer - Check to see whether there is a new version of Ubuntu available.
+2025-09-22T22:04:47.991111+03:00 lab-vm systemd[1]: Reached target paths.target - Path Units.
+2025-09-22T22:04:47.991112+03:00 lab-vm systemd[1]: Reached target timers.target - Timer Units.
+2025-09-22T22:04:47.991113+03:00 lab-vm systemd[1]: apport-forward.socket - Unix socket for apport crash forwarding was skipped because of an unmet condition check (ConditionVirtualization=container).
+2025-09-22T22:04:47.991114+03:00 lab-vm systemd[1]: Listening on cloud-init-hotplugd.socket - cloud-init hotplug hook socket.
+2025-09-22T22:04:47.991115+03:00 lab-vm systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+2025-09-22T22:04:47.991117+03:00 lab-vm systemd[1]: Listening on iscsid.socket - Open-iSCSI iscsid Socket.
+2025-09-22T22:04:47.991118+03:00 lab-vm systemd[1]: Starting lxd-installer.socket - Helper to install lxd snap on demand...
+2025-09-22T22:04:47.991119+03:00 lab-vm systemd[1]: Starting snapd.socket - Socket activation for snappy daemon...
+2025-09-22T22:04:47.991120+03:00 lab-vm systemd[1]: Listening on ssh.socket - OpenBSD Secure Shell server socket.
+2025-09-22T22:04:47.991121+03:00 lab-vm systemd[1]: Listening on uuidd.socket - UUID daemon activation socket.
+2025-09-22T22:04:47.991122+03:00 lab-vm systemd[1]: open-iscsi.service - Login to default iSCSI targets was skipped because no trigger condition checks were met.
+2025-09-22T22:04:47.991124+03:00 lab-vm systemd[1]: Reached target remote-fs-pre.target - Preparation for Remote File Systems.
+2025-09-22T22:04:47.991125+03:00 lab-vm systemd[1]: Reached target remote-fs.target - Remote File Systems.
+2025-09-22T22:04:47.991126+03:00 lab-vm systemd[1]: Finished blk-availability.service - Availability of block devices.
+2025-09-22T22:04:47.991127+03:00 lab-vm systemd[1]: systemd-pcrphase-sysinit.service - TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2025-09-22T22:04:47.991128+03:00 lab-vm systemd[1]: Listening on lxd-installer.socket - Helper to install lxd snap on demand.
+2025-09-22T22:04:47.991130+03:00 lab-vm systemd[1]: Listening on snapd.socket - Socket activation for snappy daemon.
+2025-09-22T22:04:47.991131+03:00 lab-vm systemd[1]: Reached target sockets.target - Socket Units.
+2025-09-22T22:04:47.991132+03:00 lab-vm systemd[1]: Reached target basic.target - Basic System.
+2025-09-22T22:04:47.991133+03:00 lab-vm systemd[1]: Starting apport.service - automatic crash report generation...
+2025-09-22T22:04:47.991134+03:00 lab-vm systemd[1]: Starting cloud-config.service - Cloud-init: Config Stage...
+2025-09-22T22:04:47.991135+03:00 lab-vm systemd[1]: Started cron.service - Regular background program processing daemon.
+2025-09-22T22:04:47.991140+03:00 lab-vm systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+2025-09-22T22:04:47.991141+03:00 lab-vm systemd[1]: Started dmesg.service - Save initial kernel messages after boot.
+2025-09-22T22:04:47.991142+03:00 lab-vm systemd[1]: Starting dpkg-db-backup.service - Daily dpkg database backup service...
+2025-09-22T22:04:47.991143+03:00 lab-vm systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+2025-09-22T22:04:47.991145+03:00 lab-vm systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+2025-09-22T22:04:47.991146+03:00 lab-vm systemd[1]: Starting grub-common.service - Record successful boot for GRUB...
+2025-09-22T22:04:47.991147+03:00 lab-vm systemd[1]: networkd-dispatcher.service - Dispatcher daemon for systemd-networkd was skipped because no trigger condition checks were met.
+2025-09-22T22:04:47.991149+03:00 lab-vm systemd[1]: Starting polkit.service - Authorization Manager...
+2025-09-22T22:04:47.991151+03:00 lab-vm systemd[1]: pollinate.service - Pollinate to seed the pseudo random number generator was skipped because of an unmet condition check (ConditionPathExists=!/var/cache/pollinate/seeded).
+2025-09-22T22:04:47.991153+03:00 lab-vm systemd[1]: Starting rsyslog.service - System Logging Service...
+2025-09-22T22:04:47.991154+03:00 lab-vm systemd[1]: secureboot-db.service - Secure Boot updates for DB and DBX was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/db-d719b2cb-3d3a-4596-a3bc-dad00e67656f).
+2025-09-22T22:04:47.991155+03:00 lab-vm systemd[1]: snapd.core-fixup.service - Automatically repair incorrect owner/permissions on core devices was skipped because no trigger condition checks were met.
+2025-09-22T22:04:47.991156+03:00 lab-vm systemd[1]: snapd.recovery-chooser-trigger.service - Wait for the Ubuntu Core chooser trigger was skipped because of an unmet condition check (ConditionKernelCommandLine=snapd_recovery_mode).
+2025-09-22T22:04:47.991158+03:00 lab-vm systemd[1]: Reached target getty-pre.target - Preparation for Logins.
+2025-09-22T22:04:47.991159+03:00 lab-vm systemd[1]: Starting snapd.seeded.service - Wait until snapd is fully seeded...
+2025-09-22T22:04:47.991160+03:00 lab-vm systemd[1]: Starting snapd.service - Snap Daemon...
+2025-09-22T22:04:47.991161+03:00 lab-vm systemd[1]: Starting sysstat.service - Resets System Activity Logs...
+2025-09-22T22:04:47.991162+03:00 lab-vm systemd[1]: Starting systemd-logind.service - User Login Management...
+2025-09-22T22:04:47.991163+03:00 lab-vm systemd[1]: systemd-pcrphase.service - TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2025-09-22T22:04:47.991165+03:00 lab-vm systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+2025-09-22T22:04:47.991166+03:00 lab-vm systemd[1]: ua-reboot-cmds.service - Ubuntu Pro reboot cmds was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+2025-09-22T22:04:47.991167+03:00 lab-vm systemd[1]: ubuntu-advantage.service - Ubuntu Pro Background Auto Attach was skipped because no trigger condition checks were met.
+2025-09-22T22:04:47.991168+03:00 lab-vm systemd[1]: Starting udisks2.service - Disk Manager...
+2025-09-22T22:04:47.991169+03:00 lab-vm systemd[1]: Starting logrotate.service - Rotate log files...
+2025-09-22T22:04:47.991170+03:00 lab-vm systemd[1]: Started dbus.service - D-Bus System Message Bus.
+2025-09-22T22:04:47.991172+03:00 lab-vm systemd[1]: e2scrub_reap.service: Deactivated successfully.
+2025-09-22T22:04:47.991173+03:00 lab-vm systemd[1]: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+2025-09-22T22:04:47.991177+03:00 lab-vm systemd[1]: Finished sysstat.service - Resets System Activity Logs.
+2025-09-22T22:04:47.991179+03:00 lab-vm systemd[1]: Started systemd-logind.service - User Login Management.
+2025-09-22T22:04:47.991180+03:00 lab-vm systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+2025-09-22T22:04:47.991181+03:00 lab-vm systemd[1]: Finished dpkg-db-backup.service - Daily dpkg database backup service.
+2025-09-22T22:04:47.991182+03:00 lab-vm systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+2025-09-22T22:04:47.991183+03:00 lab-vm dbus-daemon[665]: [system] Successfully activated service 'org.freedesktop.systemd1'
+2025-09-22T22:04:47.991184+03:00 lab-vm systemd[1]: Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+2025-09-22T22:04:47.979729+03:00 lab-vm systemd[1]: Starting plymouth-quit.service - Terminate Plymouth Boot Screen...
+2025-09-22T22:04:47.987556+03:00 lab-vm systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+2025-09-22T22:04:47.987579+03:00 lab-vm dbus-daemon[665]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.4' (uid=0 pid=711 comm="/usr/libexec/udisks2/udisksd" label="unconfined")
+2025-09-22T22:04:47.987601+03:00 lab-vm systemd[1]: Finished apport.service - automatic crash report generation.
+2025-09-22T22:04:47.987641+03:00 lab-vm systemd[1]: logrotate.service: Deactivated successfully.
+2025-09-22T22:04:47.987658+03:00 lab-vm systemd[1]: Finished logrotate.service - Rotate log files.
+2025-09-22T22:04:47.987668+03:00 lab-vm systemd[1]: grub-common.service: Deactivated successfully.
+2025-09-22T22:04:47.987677+03:00 lab-vm systemd[1]: Finished grub-common.service - Record successful boot for GRUB.
+2025-09-22T22:04:47.987686+03:00 lab-vm systemd[1]: Finished plymouth-quit-wait.service - Hold until boot process finishes up.
+2025-09-22T22:04:47.991364+03:00 lab-vm rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2312.0]
+2025-09-22T22:04:47.991913+03:00 lab-vm systemd[1]: Started rsyslog.service - System Logging Service.
+2025-09-22T22:04:47.994887+03:00 lab-vm kernel: systemd[1]: Inserted module 'autofs4'
+2025-09-22T22:04:47.994887+03:00 lab-vm kernel: systemd[1]: systemd 255.4-1ubuntu8.10 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+2025-09-22T22:04:47.994888+03:00 lab-vm kernel: systemd[1]: Detected virtualization qemu.
+2025-09-22T22:04:47.994889+03:00 lab-vm kernel: systemd[1]: Detected architecture arm64.
+2025-09-22T22:04:47.994889+03:00 lab-vm kernel: systemd[1]: Hostname set to <lab-vm>.
+2025-09-22T22:04:47.994889+03:00 lab-vm kernel: systemd[1]: Queued start job for default target graphical.target.
+2025-09-22T22:04:47.994890+03:00 lab-vm kernel: systemd[1]: Created slice system-modprobe.slice - Slice /system/modprobe.
+2025-09-22T22:04:47.994890+03:00 lab-vm kernel: systemd[1]: Created slice system-serial\x2dgetty.slice - Slice /system/serial-getty.
+2025-09-22T22:04:47.994890+03:00 lab-vm kernel: systemd[1]: Created slice system-systemd\x2dfsck.slice - Slice /system/systemd-fsck.
+2025-09-22T22:04:47.994891+03:00 lab-vm kernel: systemd[1]: Created slice user.slice - User and Session Slice.
+2025-09-22T22:04:47.994892+03:00 lab-vm kernel: systemd[1]: Started systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+2025-09-22T22:04:47.994892+03:00 lab-vm kernel: systemd[1]: Set up automount proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point.
+2025-09-22T22:04:47.994892+03:00 lab-vm kernel: systemd[1]: Expecting device dev-disk-by\x2dlabel-BOOT.device - /dev/disk/by-label/BOOT...
+2025-09-22T22:04:47.994893+03:00 lab-vm kernel: systemd[1]: Expecting device dev-disk-by\x2dlabel-UEFI.device - /dev/disk/by-label/UEFI...
+2025-09-22T22:04:47.994893+03:00 lab-vm kernel: systemd[1]: Expecting device dev-ttyAMA0.device - /dev/ttyAMA0...
+2025-09-22T22:04:47.994894+03:00 lab-vm kernel: systemd[1]: Reached target integritysetup.target - Local Integrity Protected Volumes.
+2025-09-22T22:04:47.994894+03:00 lab-vm kernel: systemd[1]: Reached target slices.target - Slice Units.
+2025-09-22T22:04:47.994894+03:00 lab-vm kernel: systemd[1]: Reached target snapd.mounts-pre.target - Mounting snaps.
+2025-09-22T22:04:47.994895+03:00 lab-vm kernel: systemd[1]: Reached target swap.target - Swaps.
+2025-09-22T22:04:47.994895+03:00 lab-vm kernel: systemd[1]: Reached target veritysetup.target - Local Verity Protected Volumes.
+2025-09-22T22:04:47.994895+03:00 lab-vm kernel: systemd[1]: Listening on dm-event.socket - Device-mapper event daemon FIFOs.
+2025-09-22T22:04:47.994896+03:00 lab-vm kernel: systemd[1]: Listening on lvm2-lvmpolld.socket - LVM2 poll daemon socket.
+2025-09-22T22:04:47.994897+03:00 lab-vm kernel: systemd[1]: Listening on multipathd.socket - multipathd control socket.
+2025-09-22T22:04:47.994897+03:00 lab-vm kernel: systemd[1]: Listening on syslog.socket - Syslog Socket.
+2025-09-22T22:04:47.994897+03:00 lab-vm kernel: systemd[1]: Listening on systemd-fsckd.socket - fsck to fsckd communication Socket.
+2025-09-22T22:04:47.994898+03:00 lab-vm kernel: systemd[1]: Listening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+2025-09-22T22:04:47.994898+03:00 lab-vm kernel: systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+2025-09-22T22:04:47.994899+03:00 lab-vm kernel: systemd[1]: Listening on systemd-journald.socket - Journal Socket.
+2025-09-22T22:04:47.994899+03:00 lab-vm kernel: systemd[1]: Listening on systemd-networkd.socket - Network Service Netlink Socket.
+2025-09-22T22:04:47.994900+03:00 lab-vm kernel: systemd[1]: systemd-pcrextend.socket - TPM2 PCR Extension (Varlink) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2025-09-22T22:04:47.994900+03:00 lab-vm kernel: systemd[1]: Listening on systemd-udevd-control.socket - udev Control Socket.
+2025-09-22T22:04:47.994900+03:00 lab-vm kernel: systemd[1]: Listening on systemd-udevd-kernel.socket - udev Kernel Socket.
+2025-09-22T22:04:47.994901+03:00 lab-vm kernel: systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+2025-09-22T22:04:47.994901+03:00 lab-vm kernel: systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+2025-09-22T22:04:47.994902+03:00 lab-vm kernel: systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+2025-09-22T22:04:47.994902+03:00 lab-vm kernel: systemd[1]: Mounting sys-kernel-tracing.mount - Kernel Trace File System...
+2025-09-22T22:04:47.994903+03:00 lab-vm kernel: systemd[1]: Starting systemd-journald.service - Journal Service...
+2025-09-22T22:04:47.994903+03:00 lab-vm kernel: systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+2025-09-22T22:04:47.994903+03:00 lab-vm kernel: systemd[1]: Starting kmod-static-nodes.service - Create List of Static Device Nodes...
+2025-09-22T22:04:47.994904+03:00 lab-vm kernel: systemd[1]: Starting lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+2025-09-22T22:04:47.994905+03:00 lab-vm kernel: systemd[1]: Starting modprobe@configfs.service - Load Kernel Module configfs...
+2025-09-22T22:04:47.994905+03:00 lab-vm kernel: systemd-journald[284]: Collecting audit messages is disabled.
+2025-09-22T22:04:47.994905+03:00 lab-vm kernel: systemd[1]: Starting modprobe@dm_mod.service - Load Kernel Module dm_mod...
+2025-09-22T22:04:47.994905+03:00 lab-vm kernel: systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+2025-09-22T22:04:47.994906+03:00 lab-vm kernel: systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+2025-09-22T22:04:47.994906+03:00 lab-vm kernel: systemd[1]: Starting modprobe@fuse.service - Load Kernel Module fuse...
+2025-09-22T22:04:47.994907+03:00 lab-vm kernel: systemd[1]: Starting modprobe@loop.service - Load Kernel Module loop...
+2025-09-22T22:04:47.994908+03:00 lab-vm kernel: systemd[1]: netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup was skipped because of an unmet condition check (ConditionFileIsExecutable=/usr/bin/ovs-vsctl).
+2025-09-22T22:04:47.995112+03:00 lab-vm kernel: systemd[1]: Starting systemd-fsck-root.service - File System Check on Root Device...
+2025-09-22T22:04:47.995113+03:00 lab-vm kernel: systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+2025-09-22T22:04:47.995116+03:00 lab-vm kernel: systemd[1]: systemd-pcrmachine.service - TPM2 PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2025-09-22T22:04:47.995116+03:00 lab-vm kernel: systemd[1]: systemd-tpm2-setup-early.service - TPM2 SRK Setup (Early) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2025-09-22T22:04:47.995116+03:00 lab-vm kernel: systemd[1]: Starting systemd-udev-trigger.service - Coldplug All udev Devices...
+2025-09-22T22:04:47.995117+03:00 lab-vm kernel: systemd[1]: Started systemd-journald.service - Journal Service.
+2025-09-22T22:04:47.995118+03:00 lab-vm kernel: systemd-journald[284]: Received client request to flush runtime journal.
+2025-09-22T22:04:47.995119+03:00 lab-vm kernel: systemd-journald[284]: /var/log/journal/88e37cc38c634c00a45a6fa93b4882a4/system.journal: Journal file uses a different sequence number ID, rotating.
+2025-09-22T22:04:47.995120+03:00 lab-vm kernel: systemd-journald[284]: Rotating system journal.
+2025-09-22T22:04:47.999954+03:00 lab-vm systemd[1]: Starting grub-initrd-fallback.service - GRUB failed boot detection...
+2025-09-22T22:04:48.004230+03:00 lab-vm systemd[1]: Started serial-getty@ttyAMA0.service - Serial Getty on ttyAMA0.
+2025-09-22T22:04:48.019170+03:00 lab-vm systemd[1]: Starting setvtrgb.service - Set console scheme...
+2025-09-22T22:04:48.019205+03:00 lab-vm systemd[1]: Cannot find unit for notify message of PID 781, ignoring.
+2025-09-22T22:04:48.019245+03:00 lab-vm systemd[1]: Cannot find unit for notify message of PID 794, ignoring.
+2025-09-22T22:04:48.019255+03:00 lab-vm systemd[1]: Finished plymouth-quit.service - Terminate Plymouth Boot Screen.
+2025-09-22T22:04:48.020787+03:00 lab-vm systemd[1]: Finished setvtrgb.service - Set console scheme.
+2025-09-22T22:04:48.024541+03:00 lab-vm systemd[1]: Started polkit.service - Authorization Manager.
+2025-09-22T22:04:48.024558+03:00 lab-vm systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+2025-09-22T22:04:48.044717+03:00 lab-vm systemd[1]: Starting ModemManager.service - Modem Manager...
+2025-09-22T22:04:48.058203+03:00 lab-vm systemd[1]: Started getty@tty1.service - Getty on tty1.
+2025-09-22T22:04:48.058236+03:00 lab-vm systemd[1]: Reached target getty.target - Login Prompts.
+2025-09-22T22:04:48.058248+03:00 lab-vm systemd[1]: grub-initrd-fallback.service: Deactivated successfully.
+2025-09-22T22:04:48.058268+03:00 lab-vm systemd[1]: Finished grub-initrd-fallback.service - GRUB failed boot detection.
+2025-09-22T22:04:48.058279+03:00 lab-vm systemd[1]: Started udisks2.service - Disk Manager.
+2025-09-22T22:04:48.111454+03:00 lab-vm systemd[1]: Started ModemManager.service - Modem Manager.
+2025-09-22T22:04:48.154703+03:00 lab-vm systemd[1]: Finished cloud-config.service - Cloud-init: Config Stage.
+2025-09-22T22:04:48.828905+03:00 lab-vm systemd[1]: tmp-syscheck\x2dmountpoint\x2d3632075910.mount: Deactivated successfully.
+2025-09-22T22:04:48.900475+03:00 lab-vm systemd[1]: Started snapd.service - Snap Daemon.
+2025-09-22T22:04:48.904607+03:00 lab-vm dbus-daemon[665]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.9' (uid=0 pid=685 comm="/usr/lib/snapd/snapd" label="unconfined")
+2025-09-22T22:04:48.909613+03:00 lab-vm systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2025-09-22T22:04:48.922228+03:00 lab-vm systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2025-09-22T22:04:48.926187+03:00 lab-vm systemd[1]: Finished snapd.seeded.service - Wait until snapd is fully seeded.
+2025-09-22T22:04:48.926621+03:00 lab-vm systemd[1]: snapd.autoimport.service - Auto import assertions from block devices was skipped because no trigger condition checks were met.
+2025-09-22T22:04:48.926692+03:00 lab-vm systemd[1]: Reached target multi-user.target - Multi-User System.
+2025-09-22T22:04:48.926872+03:00 lab-vm systemd[1]: Reached target graphical.target - Graphical Interface.
+2025-09-22T22:04:48.931770+03:00 lab-vm systemd[1]: Starting cloud-final.service - Cloud-init: Final Stage...
+2025-09-22T22:04:48.932614+03:00 lab-vm systemd[1]: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+2025-09-22T22:04:48.941481+03:00 lab-vm systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+2025-09-22T22:04:48.941839+03:00 lab-vm systemd[1]: Finished systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP.
+2025-09-22T22:04:49.075297+03:00 lab-vm systemd[1]: Finished cloud-final.service - Cloud-init: Final Stage.
+2025-09-22T22:04:49.076142+03:00 lab-vm systemd[1]: Reached target cloud-init.target - Cloud-init target.
+2025-09-22T22:04:49.076877+03:00 lab-vm systemd[1]: Startup finished in 1.848s (kernel) + 4.948s (userspace) = 6.797s.
+2025-09-22T22:04:49.092572+03:00 lab-vm systemd[1]: dmesg.service: Deactivated successfully.
+2025-09-22T22:04:49.096146+03:00 lab-vm systemd-timesyncd[487]: Network configuration changed, trying to establish connection.
+2025-09-22T22:04:50.325598+03:00 lab-vm systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2025-09-22T22:04:50.363146+03:00 lab-vm systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2025-09-22T22:04:50.399914+03:00 lab-vm systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2025-09-22T22:04:50.402205+03:00 lab-vm systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2025-09-22T22:04:50.411116+03:00 lab-vm systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2025-09-22T22:04:50.414659+03:00 lab-vm systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2025-09-22T22:04:50.464260+03:00 lab-vm systemd[927]: Queued start job for default target default.target.
+2025-09-22T22:04:50.471564+03:00 lab-vm kernel: systemd-journald[284]: /var/log/journal/88e37cc38c634c00a45a6fa93b4882a4/user-1000.journal: Journal file uses a different sequence number ID, rotating.
+2025-09-22T22:04:50.483829+03:00 lab-vm systemd[927]: Created slice app.slice - User Application Slice.
+2025-09-22T22:04:50.484646+03:00 lab-vm systemd[927]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+2025-09-22T22:04:50.484843+03:00 lab-vm systemd[927]: Reached target paths.target - Paths.
+2025-09-22T22:04:50.484893+03:00 lab-vm systemd[927]: Reached target timers.target - Timers.
+2025-09-22T22:04:50.484904+03:00 lab-vm systemd[927]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2025-09-22T22:04:50.484920+03:00 lab-vm systemd[927]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2025-09-22T22:04:50.484932+03:00 lab-vm systemd[927]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2025-09-22T22:04:50.484943+03:00 lab-vm systemd[927]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2025-09-22T22:04:50.484955+03:00 lab-vm systemd[927]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-09-22T22:04:50.484966+03:00 lab-vm systemd[927]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2025-09-22T22:04:50.484976+03:00 lab-vm systemd[927]: Listening on keyboxd.socket - GnuPG public key management service.
+2025-09-22T22:04:50.484986+03:00 lab-vm systemd[927]: Listening on pk-debconf-helper.socket - debconf communication socket.
+2025-09-22T22:04:50.484996+03:00 lab-vm systemd[927]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+2025-09-22T22:04:50.485009+03:00 lab-vm systemd[927]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2025-09-22T22:04:50.485687+03:00 lab-vm systemd[927]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-09-22T22:04:50.485707+03:00 lab-vm systemd[927]: Reached target sockets.target - Sockets.
+2025-09-22T22:04:50.485719+03:00 lab-vm systemd[927]: Reached target basic.target - Basic System.
+2025-09-22T22:04:50.485730+03:00 lab-vm systemd[927]: Reached target default.target - Main User Target.
+2025-09-22T22:04:50.485744+03:00 lab-vm systemd[927]: Startup finished in 67ms.
+2025-09-22T22:04:50.486594+03:00 lab-vm systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2025-09-22T22:04:50.493635+03:00 lab-vm systemd[1]: Started session-1.scope - Session 1 of User ubuntu.
+2025-09-22T22:04:50.493806+03:00 lab-vm systemd[1]: Started session-3.scope - Session 3 of User ubuntu.
+2025-09-22T22:04:50.860696+03:00 lab-vm systemd[1]: Started session-4.scope - Session 4 of User ubuntu.
+2025-09-22T22:04:50.918782+03:00 lab-vm systemd[927]: Created slice session.slice - User Core Session Slice.
+2025-09-22T22:04:50.923719+03:00 lab-vm systemd[927]: Starting dbus.service - D-Bus User Message Bus...
+2025-09-22T22:04:50.932654+03:00 lab-vm systemd[927]: Started dbus.service - D-Bus User Message Bus.
+2025-09-22T22:04:50.935622+03:00 lab-vm dbus-daemon[1220]: [session uid=1000 pid=1220] Successfully activated service 'org.freedesktop.systemd1'
+2025-09-22T22:04:50.942586+03:00 lab-vm systemd[927]: Started snap.multipass-sshfs.env-f5fa3229-e3c7-4b9f-8bc8-914d4255063e.scope.
+2025-09-22T22:04:50.970087+03:00 lab-vm systemd[1]: tmp-snap.rootfs_8oeDNC.mount: Deactivated successfully.
+2025-09-22T22:04:51.146353+03:00 lab-vm systemd-timesyncd[487]: Network configuration changed, trying to establish connection.
+2025-09-22T22:05:01.396078+03:00 lab-vm systemd[1]: Starting e2scrub_all.service - Online ext4 Metadata Check for All Filesystems...
+2025-09-22T22:05:01.397619+03:00 lab-vm systemd[1]: e2scrub_all.service: Deactivated successfully.
+2025-09-22T22:05:01.397681+03:00 lab-vm systemd[1]: Finished e2scrub_all.service - Online ext4 Metadata Check for All Filesystems.
+2025-09-22T22:05:01.400665+03:00 lab-vm systemd[1]: Started session-5.scope - Session 5 of User ubuntu.
+2025-09-22T22:05:14.921484+03:00 lab-vm systemd[1]: systemd-fsckd.service: Deactivated successfully.
+2025-09-22T22:05:19.563678+03:00 lab-vm systemd[1]: systemd-timedated.service: Deactivated successfully.
+2025-09-22T22:05:31.585896+03:00 lab-vm systemd-timesyncd[487]: Timed out waiting for reply from 185.125.190.57:123 (ntp.ubuntu.com).
+2025-09-22T22:05:32.224495+03:00 lab-vm systemd-timesyncd[487]: Contacted time server 91.189.91.157:123 (ntp.ubuntu.com).
+2025-09-22T22:05:32.224675+03:00 lab-vm systemd-timesyncd[487]: Initial clock synchronization to Mon 2025-09-22 22:05:32.223471 MSK.
+2025-09-22T22:05:32.225147+03:00 lab-vm systemd-resolved[479]: Clock change detected. Flushing caches.
+2025-09-22T22:09:49.494806+03:00 lab-vm systemd[1]: Starting update-notifier-download.service - Download data for packages that failed at package install time...
+2025-09-22T22:09:49.567134+03:00 lab-vm systemd[1]: update-notifier-download.service: Deactivated successfully.
+2025-09-22T22:09:49.567273+03:00 lab-vm systemd[1]: Finished update-notifier-download.service - Download data for packages that failed at package install time.
+2025-09-22T22:09:50.034523+03:00 lab-vm dbus-daemon[665]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.9' (uid=0 pid=685 comm="/usr/lib/snapd/snapd" label="unconfined")
+2025-09-22T22:09:50.046998+03:00 lab-vm systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2025-09-22T22:09:50.102128+03:00 lab-vm systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2025-09-22T22:10:18.132966+03:00 lab-vm systemd[927]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache was skipped because of an unmet condition check (ConditionPathExists=/home/ubuntu/.launchpadlib/api.launchpad.net/cache).
+2025-09-22T22:10:18.147837+03:00 lab-vm systemd[1]: Starting apt-daily-upgrade.service - Daily apt upgrade and clean activities...
+2025-09-22T22:10:18.151664+03:00 lab-vm systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-09-22T22:10:18.170727+03:00 lab-vm systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-09-22T22:10:18.171171+03:00 lab-vm systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-09-22T22:10:20.132386+03:00 lab-vm systemd[1]: systemd-timedated.service: Deactivated successfully.
+2025-09-22T22:10:28.488220+03:00 lab-vm apt.systemd.daily[1449]: /usr/bin/unattended-upgrade:567: DeprecationWarning: This process (pid=1449) is multi-threaded, use of fork() may lead to deadlocks in the child.
+2025-09-22T22:10:28.488273+03:00 lab-vm apt.systemd.daily[1449]:   pid = os.fork()
+2025-09-22T22:10:29.028504+03:00 lab-vm systemd[1]: Reloading requested from client PID 1597 ('systemctl') (unit apt-daily-upgrade.service)...
+2025-09-22T22:10:29.028542+03:00 lab-vm systemd[1]: Reloading...
+2025-09-22T22:10:29.117871+03:00 lab-vm systemd[1]: Reloading finished in 89 ms.
+2025-09-22T22:10:29.182067+03:00 lab-vm systemd[1]: Starting fstrim.service - Discard unused blocks on filesystems from /etc/fstab...
+2025-09-22T22:10:29.190941+03:00 lab-vm systemd[1]: Stopping udisks2.service - Disk Manager...
+2025-09-22T22:10:29.199215+03:00 lab-vm systemd[1]: udisks2.service: Deactivated successfully.
+2025-09-22T22:10:29.199417+03:00 lab-vm systemd[1]: Stopped udisks2.service - Disk Manager.
+2025-09-22T22:10:29.203468+03:00 lab-vm systemd[1]: Starting udisks2.service - Disk Manager...
+2025-09-22T22:10:29.215781+03:00 lab-vm systemd[1]: Started udisks2.service - Disk Manager.
+2025-09-22T22:10:29.251488+03:00 lab-vm systemd[1]: fstrim.service: Deactivated successfully.
+2025-09-22T22:10:29.251808+03:00 lab-vm systemd[1]: Finished fstrim.service - Discard unused blocks on filesystems from /etc/fstab.
+2025-09-22T22:10:31.101162+03:00 lab-vm dbus-daemon[665]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.22' (uid=0 pid=1671 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+2025-09-22T22:10:31.111577+03:00 lab-vm systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2025-09-22T22:10:31.155292+03:00 lab-vm systemd[1]: Started packagekit.service - PackageKit Daemon.
+2025-09-22T22:10:33.104496+03:00 lab-vm apt.systemd.daily[1449]: /usr/bin/unattended-upgrade:567: DeprecationWarning: This process (pid=1449) is multi-threaded, use of fork() may lead to deadlocks in the child.
+2025-09-22T22:10:33.104526+03:00 lab-vm apt.systemd.daily[1449]:   pid = os.fork()
+2025-09-22T22:10:35.703691+03:00 lab-vm apt.systemd.daily[1449]: /usr/bin/unattended-upgrade:567: DeprecationWarning: This process (pid=1449) is multi-threaded, use of fork() may lead to deadlocks in the child.
+2025-09-22T22:10:35.703732+03:00 lab-vm apt.systemd.daily[1449]:   pid = os.fork()
+2025-09-22T22:10:37.075543+03:00 lab-vm systemd[1]: Stopping systemd-binfmt.service - Set Up Additional Binary Formats...
+2025-09-22T22:10:37.076730+03:00 lab-vm systemd[1]: systemd-binfmt.service: Deactivated successfully.
+2025-09-22T22:10:37.076795+03:00 lab-vm systemd[1]: Stopped systemd-binfmt.service - Set Up Additional Binary Formats.
+2025-09-22T22:10:37.077320+03:00 lab-vm systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+2025-09-22T22:10:37.079096+03:00 lab-vm systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+2025-09-22T22:10:39.102354+03:00 lab-vm apt.systemd.daily[1449]: /usr/bin/unattended-upgrade:567: DeprecationWarning: This process (pid=1449) is multi-threaded, use of fork() may lead to deadlocks in the child.
+2025-09-22T22:10:39.102394+03:00 lab-vm apt.systemd.daily[1449]:   pid = os.fork()
+2025-09-22T22:10:42.147269+03:00 lab-vm apt.systemd.daily[1449]: /usr/bin/unattended-upgrade:567: DeprecationWarning: This process (pid=1449) is multi-threaded, use of fork() may lead to deadlocks in the child.
+2025-09-22T22:10:42.147299+03:00 lab-vm apt.systemd.daily[1449]:   pid = os.fork()
+2025-09-22T22:10:44.232420+03:00 lab-vm apt.systemd.daily[1449]: /usr/bin/unattended-upgrade:567: DeprecationWarning: This process (pid=1449) is multi-threaded, use of fork() may lead to deadlocks in the child.
+2025-09-22T22:10:44.232463+03:00 lab-vm apt.systemd.daily[1449]:   pid = os.fork()
+2025-09-22T22:10:45.507416+03:00 lab-vm systemd[1]: Stopping packagekit.service - PackageKit Daemon...
+2025-09-22T22:10:45.513605+03:00 lab-vm systemd[1]: packagekit.service: Deactivated successfully.
+2025-09-22T22:10:45.513672+03:00 lab-vm systemd[1]: Stopped packagekit.service - PackageKit Daemon.
+2025-09-22T22:10:45.516708+03:00 lab-vm systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2025-09-22T22:10:45.524200+03:00 lab-vm systemd[1]: Started packagekit.service - PackageKit Daemon.
+2025-09-22T22:10:46.464388+03:00 lab-vm apt.systemd.daily[1449]: /usr/bin/unattended-upgrade:567: DeprecationWarning: This process (pid=1449) is multi-threaded, use of fork() may lead to deadlocks in the child.
+2025-09-22T22:10:46.464443+03:00 lab-vm apt.systemd.daily[1449]:   pid = os.fork()
+2025-09-22T22:10:57.484373+03:00 lab-vm apt.systemd.daily[1449]: /usr/bin/unattended-upgrade:567: DeprecationWarning: This process (pid=1449) is multi-threaded, use of fork() may lead to deadlocks in the child.
+2025-09-22T22:10:57.487141+03:00 lab-vm apt.systemd.daily[1449]:   pid = os.fork()
+2025-09-22T22:10:59.122632+03:00 lab-vm systemd[1]: Stopping packagekit.service - PackageKit Daemon...
+2025-09-22T22:10:59.126724+03:00 lab-vm systemd[1]: packagekit.service: Deactivated successfully.
+2025-09-22T22:10:59.126793+03:00 lab-vm systemd[1]: Stopped packagekit.service - PackageKit Daemon.
+2025-09-22T22:10:59.129741+03:00 lab-vm systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2025-09-22T22:10:59.138145+03:00 lab-vm systemd[1]: Started packagekit.service - PackageKit Daemon.
+2025-09-22T22:11:00.136923+03:00 lab-vm systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+2025-09-22T22:11:00.136962+03:00 lab-vm systemd[1]: Finished apt-daily-upgrade.service - Daily apt upgrade and clean activities.
+2025-09-22T22:11:00.137192+03:00 lab-vm systemd[1]: apt-daily-upgrade.service: Consumed 30.151s CPU time, 1.0G memory peak, 0B memory swap peak.
+2025-09-22T22:16:04.870272+03:00 lab-vm systemd[1]: packagekit.service: Deactivated successfully.
+2025-09-22T22:19:49.436823+03:00 lab-vm systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2025-09-22T22:19:49.490157+03:00 lab-vm systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2025-09-22T22:19:49.490287+03:00 lab-vm systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2025-09-22T22:20:03.010763+03:00 lab-vm systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-09-22T22:20:03.021902+03:00 lab-vm systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-09-22T22:20:03.022534+03:00 lab-vm systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-09-22T22:21:16.063448+03:00 lab-vm systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2025-09-22T22:21:16.110735+03:00 lab-vm dbus-daemon[665]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.59' (uid=990 pid=7410 comm="/usr/bin/fwupdmgr refresh" label="unconfined")
+2025-09-22T22:21:16.123696+03:00 lab-vm systemd[1]: Starting fwupd.service - Firmware update daemon...
+2025-09-22T22:21:16.292063+03:00 lab-vm systemd[1]: Started fwupd.service - Firmware update daemon.
+2025-09-22T22:21:16.967412+03:00 lab-vm systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2025-09-22T22:21:16.967493+03:00 lab-vm systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2025-09-22T22:26:20.915937+03:00 lab-vm systemd[1]: fwupd.service: Deactivated successfully.
+2025-09-22T22:30:08.144500+03:00 lab-vm systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-09-22T22:30:08.149300+03:00 lab-vm systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-09-22T22:30:08.149488+03:00 lab-vm systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-09-22T22:40:18.173483+03:00 lab-vm systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-09-22T22:40:18.197217+03:00 lab-vm systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-09-22T22:40:18.197475+03:00 lab-vm systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-09-22T22:42:18.141356+03:00 lab-vm systemd[1]: Starting man-db.service - Daily man-db regeneration...
+2025-09-22T22:42:18.277761+03:00 lab-vm systemd[1]: man-db.service: Deactivated successfully.
+2025-09-22T22:42:18.277856+03:00 lab-vm systemd[1]: Finished man-db.service - Daily man-db regeneration.
+2025-09-22T22:50:18.133777+03:00 lab-vm systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-09-22T22:50:18.141011+03:00 lab-vm systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-09-22T22:50:18.141217+03:00 lab-vm systemd[1]: Finished sysstat-collect.service - system activity accounting tool.

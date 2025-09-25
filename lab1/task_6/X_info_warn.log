@@ -1,0 +1,61 @@
+Warning: The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+Warning: The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+Warning: The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+Warning: The directory "/usr/share/fonts/X11/100dpi" does not exist.
+Warning: The directory "/usr/share/fonts/X11/75dpi" does not exist.
+Warning: Falling back to old probe method for modesetting
+Warning: Falling back to old probe method for fbdev
+Warning: Falling back to old probe method for modesetting
+Warning: Falling back to old probe method for fbdev
+Warning: xf86OpenConsole: setpgid failed: Operation not permitted
+Warning: xf86OpenConsole: setsid failed: Operation not permitted
+Warning: Falling back to old probe method for modesetting
+Warning: Falling back to old probe method for fbdev
+Warning: Falling back to old probe method for modesetting
+Warning: Falling back to old probe method for fbdev
+Information: The server relies on udev to provide the list of input devices.
+Information: Loader magic: 0xab7f3b5c0010
+Information: Module ABI versions:
+Information: systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+Information: no primary bus or device found
+Information: LoadModule: "glx"
+Information: Loading /usr/lib/xorg/modules/extensions/libglx.so
+Information: Module glx: vendor="X.Org Foundation"
+Information: LoadModule: "modesetting"
+Information: Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+Information: Module modesetting: vendor="X.Org Foundation"
+Information: LoadModule: "fbdev"
+Information: Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+Information: Module fbdev: vendor="X.Org Foundation"
+Information: modesetting: Driver for Modesetting Kernel Drivers: kms
+Information: FBDEV: driver for framebuffer: fbdev
+Information: Loading sub module "fbdevhw"
+Information: LoadModule: "fbdevhw"
+Information: Loading /usr/lib/xorg/modules/libfbdevhw.so
+Information: Module fbdevhw: vendor="X.Org Foundation"
+Information: Loading sub module "fbdevhw"
+Information: LoadModule: "fbdevhw"
+Information: Loading /usr/lib/xorg/modules/libfbdevhw.so
+Information: Module fbdevhw: vendor="X.Org Foundation"
+Information: LoadModule: "modesetting"
+Information: Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+Information: Module modesetting: vendor="X.Org Foundation"
+Information: UnloadModule: "modesetting"
+Information: Unloading modesetting
+Information: Failed to load module "modesetting" (already loaded, 0)
+Information: LoadModule: "fbdev"
+Information: Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+Information: Module fbdev: vendor="X.Org Foundation"
+Information: UnloadModule: "fbdev"
+Information: Unloading fbdev
+Information: Failed to load module "fbdev" (already loaded, 0)
+Information: modesetting: Driver for Modesetting Kernel Drivers: kms
+Information: FBDEV: driver for framebuffer: fbdev
+Information: Loading sub module "fbdevhw"
+Information: LoadModule: "fbdevhw"
+Information: Loading /usr/lib/xorg/modules/libfbdevhw.so
+Information: Module fbdevhw: vendor="X.Org Foundation"
+Information: Loading sub module "fbdevhw"
+Information: LoadModule: "fbdevhw"
+Information: Loading /usr/lib/xorg/modules/libfbdevhw.so
+Information: Module fbdevhw: vendor="X.Org Foundation"
